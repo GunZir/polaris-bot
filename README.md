@@ -44,7 +44,7 @@ Commnly used Linux command:
 **example:**
 
 ```
-	ros2 action list
+ros2 action list
 ```
 
 **output:**
