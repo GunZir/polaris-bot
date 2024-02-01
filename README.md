@@ -1008,3 +1008,104 @@ for open spacific file with text editor from directory location.
 ```
 source (file_name)
 ```
+
+## top
+
+>provides a real-time, dynamic view of the system's performance. that shows a real-time view of running processes
+```
+top 	
+```
+|Command  |Description 
+|--           |--
+| top -n 10  	  |limits the number of updates displayed
+| top -u username   		| Display Specific User Process
+| top -h      |Shows top command syntax
+| top -b         |Batch Mode
+| top -s       | parameters
+| top -c       |Command Line
+| top -d seconds.tenths         |Delay time
+
+
+### ipconfig
+
+>The `ipconfig` command is a command-line utility used in Windows operating systems to display the configuration of network interfaces on a computer. It provides information about the IP (Internet Protocol) configuration, including IP address, subnet mask, default gateway, and DNS (Domain Name System) servers. The command is commonly used for troubleshooting network-related issues.
+
+|Command  |Description 
+|--           |--
+|ipconfig  	  |displays basic information about all network interfaces on the system updates displayed.
+|ipconfig /all   		| display detailed information about all network interfaces.
+|ipconfig /release       |This command releases the currently assigned IP address for all network interfaces.
+|ipconfig /renew         |This command requests a new IP address for all network interfaces from a DHCP server.
+|ipconfig /flushdns       | to clear the DNS resolver cache, which may help resolve DNS-related issues.
+|ipconfig /displaydns      |shows the contents of the DNS resolver cache, including resolved DNS names and their corresponding IP addresses.
+
+## clear
+>  
+The `clear` command is used to clear the terminal screen or console window in Unix-like operating systems, including Linux. When you execute the `clear` command, it removes all the previous output from the terminal, providing a clean and empty screen. This can be useful to improve readability or to start a new set of commands without clutter from previous ones.
+```
+clear
+```
+
+## history
+>The `history` command in Unix-like operating systems, including Linux, is used to display a list of previously executed commands in the current shell session. It allows users to view and recall their command history, making it easier to re-run or modify commands without retyping them.
+>
+|Command  |Description 
+|--           |--
+| history		|This command shows a numbered list of previously executed commands along with their command numbers.
+| history 10 		| By specifying a number (in this case, 10), you can limit the display to a certain number of recent commands.
+|!n      |Replace "n" with the command number from the history list. This allows you to quickly re-run a specific command.
+| !!        |Batch Mode
+| This command will re-run the last command executed in the current shell session.      | This command will re-run the last command executed in the current shell session.
+
+* **Search Command History** You can use `grep` to search for specific commands containing a particular keyword in the command history.
+```
+	history | grep keyword 
+```
+
+## ps
+>The `ps` command is a powerful and versatile command-line utility in Unix-like operating systems (including Linux) that provides information about currently running processes. It allows users to view details about processes, their resource utilization, and other attributes.
+```
+ps
+```
+|Command  |Description 
+|--           |--
+| ps aux  	  |display a more detailed list of all processes, including information about CPU and memory usage, the user who owns the process, and the command associated with each process.
+| ps auxf   		| shows a tree-like view of processes, indicating parent-child relationships.
+| ps -e --forest      |displays processes in a hierarchical tree structure, illustrating parent-child relationships.
+| ps -p PID         |Replace "PID" with the specific Process ID to display information about a particular process.
+| ps aux --sort=-%cpu       |This command sorts processes by CPU usage, showing the most CPU-intensive processes first.
+
+## kill
+>The `kill` command is used to terminate or signal processes. It sends a signal to a process, and the default signal is to terminate the process. The command is particularly useful for stopping unresponsive or misbehaving processes.
+
+|Command  |Description 
+|--           |--
+| kill [process_id]  	  |Terminate a Linux process under agiven ID.
+| pkill [process_name]   		| Terminate a process under a specific name.
+| killall [label]     |Terminate all processes with a given label.
+
+
+## sudo
+>The `sudo` command in Unix-like operating systems, including Linux, is used to execute commands with elevated privileges. It stands for "superuser do" and allows authorized users to perform administrative tasks or run commands as another user, typically the root user.
+
+|Command  |Description 
+|--           |--
+| `sudo useradd` `[user_name]`  	  |Create a new user account.
+| `sudo adduser` `[user_name]`  		| Terminate a process under a specific name.
+| `sudo userdel` `[user_name]`    |Delete a user account.
+| `sudo` `[command]`  	  |Temporarily elevate user privileges to superuser or root.
+
+## reboot
+>  
+The `reboot` command in Unix-like operating systems, including Linux, is used to restart the system. When you execute the `reboot` command, the system will shut down and then immediately restart. This command requires root or administrative privileges, so it is often used with the `sudo` command.
+```
+sudo reboot
+```
+## chmod
+>The `chmod` command is used to change the permissions of a file or directory. It stands for "change mode." The `chmod` command allows users to modify the read, write, and execute permissions for the owner, group, and others.
+
+|Command  |Description 
+|--           |--
+| `chmod 777` `[file_name]`  	  |Assign read. write, write, and execute file permission to everyone (rwxrwxrwx)
+| `chmod 755` `[file_name]`  		| Give read, write, and execute permission to owner, and read and execute permission to group and others (rwxr-xr-x).
+| `chmod 766` `[file_name]`    |Assign full permission to the owner, and read and write permission to the group and others (rwxrw-rw-).
