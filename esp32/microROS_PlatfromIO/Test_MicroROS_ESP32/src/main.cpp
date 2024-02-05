@@ -23,11 +23,11 @@ rcl_subscription_t subscriber;
 
 //int 
 std_msgs__msg__Int32 msg_int;// Declare message variables
-rcl_node_t node_int; //it represents the ROS 2 node in the provided code.
+rcl_node_t node; //it represents the ROS 2 node in the provided code.
 
 //string
 std_msgs__msg__String msg_string;// Declare message variables
-rcl_node_t node_string; //it represents the ROS 2 node in the provided code.
+//rcl_node_t node_string; //it represents the ROS 2 node in the provided code.
 
 rclc_executor_t executor; //it will be used to control the execution of tasks within the ROS 2 system.
 rclc_support_t support; //holds the support configuration for the node.
@@ -52,6 +52,7 @@ void timer_callback1(rcl_timer_t * timer1, int64_t last_call_time1) {
   RCLC_UNUSED(last_call_time1);
   if (timer1 != NULL) {
     
+    Serial.println("Executing timer_callback1");
     //Publisher String
     RCSOFTCHECK(rcl_publish(&publisher_string, &msg_string, NULL));
     
@@ -59,6 +60,8 @@ void timer_callback1(rcl_timer_t * timer1, int64_t last_call_time1) {
     ////Publisher Int32
     //RCSOFTCHECK(rcl_publish(&publisher_int, &msg_int, NULL));
     //msg_int.data++;
+
+    
   }
 }
 
@@ -66,6 +69,7 @@ void timer_callback2(rcl_timer_t * timer2, int64_t last_call_time2) {
   RCLC_UNUSED(last_call_time2);
   if (timer2 != NULL) {
     
+    Serial.println("Executing timer_callback2");
     //Publisher String
     //RCSOFTCHECK(rcl_publish(&publisher_string, &msg_string, NULL));
     
@@ -73,6 +77,7 @@ void timer_callback2(rcl_timer_t * timer2, int64_t last_call_time2) {
     ////Publisher Int32
     RCSOFTCHECK(rcl_publish(&publisher_int, &msg_int, NULL));
     msg_int.data++;
+
   }
 }
   // int64_t last_call_time and RCLC_UNUSED(last_call_time) must have i don't know why but if you delete create timer function isn't gonna complie :) 
@@ -89,19 +94,19 @@ void setup() {
   RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
 
   // create node
-  RCCHECK(rclc_node_init_default(&node_int, "micro_ros_platformio_node_int", "", &support));
-  RCCHECK(rclc_node_init_default(&node_string, "micro_ros_platformio_node_string", "", &support));
+  RCCHECK(rclc_node_init_default(&node, "micro_ros_platformio_node", "", &support));
+  //RCCHECK(rclc_node_init_default(&node_string, "micro_ros_platformio_node_string", "", &support));
   
   // create publisher
   RCCHECK(rclc_publisher_init_default(
     &publisher_int,
-    &node_int,
+    &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
     "micro_ros_platformio_node_int_publisher"));
 
   RCCHECK(rclc_publisher_init_default(
     &publisher_string,
-    &node_string,
+    &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
     "micro_ros_platformio_node_string_publisher"));
 
@@ -127,7 +132,7 @@ void setup() {
   RCCHECK(rclc_executor_add_timer(&executor, &timer1));
   RCCHECK(rclc_executor_add_timer(&executor, &timer2));
 
-  //define Int32 value
+  //define Int32 vablue
   msg_int.data = 0;
 
   //define string value
@@ -137,5 +142,5 @@ void setup() {
 
 void loop() {
   delay(100);
-  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
+  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(5000)));
 }
