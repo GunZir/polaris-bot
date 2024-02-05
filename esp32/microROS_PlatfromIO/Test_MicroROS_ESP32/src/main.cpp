@@ -126,7 +126,7 @@ void setup() {
     timer_callback2));
 
   // create executor
-  RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
+  RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator)); // in third parameter is number of topic 
 
   //executor timer
   RCCHECK(rclc_executor_add_timer(&executor, &timer1));
@@ -142,5 +142,5 @@ void setup() {
 
 void loop() {
   delay(100);
-  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(5000)));
+  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
 }
