@@ -1,0 +1,40 @@
+[1.588s] Invoking command in '/home/ice/microros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed
+[2.071s] running egg_info
+[2.073s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[2.074s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[2.074s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[2.075s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[2.075s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[2.075s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[2.075s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[2.077s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[2.079s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[2.080s] running build
+[2.080s] running build_py
+[2.081s] creating /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build
+[2.081s] creating /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib
+[2.081s] creating /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[2.082s] copying ament_cpplint/main.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[2.082s] copying ament_cpplint/__init__.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[2.082s] copying ament_cpplint/cpplint.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[2.083s] running install
+[2.085s] running install_lib
+[2.086s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[2.086s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[2.086s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[2.087s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[2.088s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/main.py to main.cpython-310.pyc
+[2.092s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/__init__.py to __init__.cpython-310.pyc
+[2.093s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-310.pyc
+[2.183s] running install_data
+[2.184s] copying package.xml -> /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_cpplint
+[2.185s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index
+[2.185s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index
+[2.185s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[2.185s] copying resource/ament_cpplint -> /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[2.186s] running install_egg_info
+[2.188s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint-0.12.10-py3.10.egg-info
+[2.201s] running install_scripts
+[2.275s] Installing ament_cpplint script to /home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/bin
+[2.293s] writing list of installed files to '/home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/install.log'
+[2.443s] Invoked command in '/home/ice/microros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/ice/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/ice/microros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed

@@ -1,0 +1,52 @@
+[1.577s] Invoking command in '/home/ice/microros_ws/firmware/dev_ws/ament/ament_index/ament_index_python': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/prefix_override:/home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_index_python build --build-base /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build install --record /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/install.log --single-version-externally-managed
+[2.096s] running egg_info
+[2.102s] creating ../../../build/ament_index_python/ament_index_python.egg-info
+[2.102s] writing ../../../build/ament_index_python/ament_index_python.egg-info/PKG-INFO
+[2.103s] writing dependency_links to ../../../build/ament_index_python/ament_index_python.egg-info/dependency_links.txt
+[2.103s] writing entry points to ../../../build/ament_index_python/ament_index_python.egg-info/entry_points.txt
+[2.105s] writing requirements to ../../../build/ament_index_python/ament_index_python.egg-info/requires.txt
+[2.105s] writing top-level names to ../../../build/ament_index_python/ament_index_python.egg-info/top_level.txt
+[2.106s] writing manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[2.110s] reading manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[2.114s] writing manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[2.115s] running build
+[2.115s] running build_py
+[2.116s] creating /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build
+[2.117s] creating /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib
+[2.117s] creating /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[2.119s] copying ament_index_python/search_paths.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[2.119s] copying ament_index_python/packages.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[2.119s] copying ament_index_python/constants.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[2.135s] copying ament_index_python/resources.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[2.136s] copying ament_index_python/cli.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[2.136s] copying ament_index_python/__init__.py -> /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python
+[2.136s] running install
+[2.136s] running install_lib
+[2.142s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python
+[2.143s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/search_paths.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python
+[2.143s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/packages.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python
+[2.144s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/constants.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python
+[2.145s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/resources.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python
+[2.146s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/cli.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python
+[2.147s] copying /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build/lib/ament_index_python/__init__.py -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python
+[2.148s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python/search_paths.py to search_paths.cpython-310.pyc
+[2.150s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python/packages.py to packages.cpython-310.pyc
+[2.151s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python/constants.py to constants.cpython-310.pyc
+[2.153s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python/resources.py to resources.cpython-310.pyc
+[2.156s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python/cli.py to cli.cpython-310.pyc
+[2.158s] byte-compiling /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python/__init__.py to __init__.cpython-310.pyc
+[2.159s] running install_data
+[2.161s] copying package.xml -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index_python
+[2.161s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index_python/environment
+[2.162s] copying completion/ament_index-argcomplete.bash -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index_python/environment
+[2.163s] copying completion/ament_index-argcomplete.zsh -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index_python/environment
+[2.165s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index
+[2.165s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index/resource_index
+[2.166s] creating /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index/resource_index/packages
+[2.166s] copying resource/ament_index_python -> /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/share/ament_index/resource_index/packages
+[2.167s] running install_egg_info
+[2.170s] Copying ../../../build/ament_index_python/ament_index_python.egg-info to /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages/ament_index_python-1.4.0-py3.10.egg-info
+[2.176s] running install_scripts
+[2.211s] Installing ament_index script to /home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/bin
+[2.223s] writing list of installed files to '/home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/install.log'
+[2.303s] Invoked command in '/home/ice/microros_ws/firmware/dev_ws/ament/ament_index/ament_index_python' returned '0': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/prefix_override:/home/ice/microros_ws/firmware/dev_ws/install/ament_index_python/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_index_python build --build-base /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/build install --record /home/ice/microros_ws/firmware/dev_ws/build/ament_index_python/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+{
+  "package_name": "messages",
+  "non_idl_tuples": [
+    "/home/ice/microros_ws/src/messages:msg/RobotMotorSpeed.msg"
+  ]
+}

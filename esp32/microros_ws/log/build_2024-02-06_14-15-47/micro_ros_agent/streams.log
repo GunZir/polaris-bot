@@ -1,0 +1,44 @@
+[0.361s] Invoking command in '/home/ice/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/ice/microros_ws/install/micro_ros_msgs:/home/ice/microros_ws/install/micro_ros_setup:/home/ice/microros_ws/install/micro_ros_agent:/home/ice/polaris_ws/install/services:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/microros_ws/install/micro_ros_msgs/lib:/home/ice/microros_ws/install/micro_ros_agent/lib:/home/ice/polaris_ws/install/services/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ice/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/ice/microros_ws/install/micro_ros_agent
+[0.446s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.268s] -- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[1.269s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.331s] -- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[1.345s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[1.434s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.632s] -- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[1.758s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.762s] -- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.766s] -- Found micro_ros_msgs: 3.0.1 (/home/ice/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[2.047s] -- Configuring done
+[2.118s] -- Generating done
+[2.127s] -- Build files have been written to: /home/ice/microros_ws/build/micro_ros_agent
+[2.152s] Invoked command in '/home/ice/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/ice/microros_ws/install/micro_ros_msgs:/home/ice/microros_ws/install/micro_ros_setup:/home/ice/microros_ws/install/micro_ros_agent:/home/ice/polaris_ws/install/services:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/microros_ws/install/micro_ros_msgs/lib:/home/ice/microros_ws/install/micro_ros_agent/lib:/home/ice/polaris_ws/install/services/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ice/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/ice/microros_ws/install/micro_ros_agent
+[2.158s] Invoking command in '/home/ice/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/ice/microros_ws/install/micro_ros_msgs:/home/ice/microros_ws/install/micro_ros_setup:/home/ice/microros_ws/install/micro_ros_agent:/home/ice/polaris_ws/install/services:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/microros_ws/install/micro_ros_msgs/lib:/home/ice/microros_ws/install/micro_ros_agent/lib:/home/ice/polaris_ws/install/services/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ice/microros_ws/build/micro_ros_agent -- -j2 -l2
+[2.547s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_agent[0m
+[2.827s] [100%] Built target micro_ros_agent
+[2.902s] Invoked command in '/home/ice/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/ice/microros_ws/install/micro_ros_msgs:/home/ice/microros_ws/install/micro_ros_setup:/home/ice/microros_ws/install/micro_ros_agent:/home/ice/polaris_ws/install/services:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/microros_ws/install/micro_ros_msgs/lib:/home/ice/microros_ws/install/micro_ros_agent/lib:/home/ice/polaris_ws/install/services/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ice/microros_ws/build/micro_ros_agent -- -j2 -l2
+[3.098s] Invoking command in '/home/ice/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/ice/microros_ws/install/micro_ros_msgs:/home/ice/microros_ws/install/micro_ros_setup:/home/ice/microros_ws/install/micro_ros_agent:/home/ice/polaris_ws/install/services:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/microros_ws/install/micro_ros_msgs/lib:/home/ice/microros_ws/install/micro_ros_agent/lib:/home/ice/polaris_ws/install/services/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ice/microros_ws/build/micro_ros_agent
+[3.127s] -- Install configuration: ""
+[3.127s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[3.132s] -- Installing: /home/ice/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[3.138s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[3.138s] -- Installing: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[3.138s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[3.138s] -- Installing: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[3.138s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[3.139s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[3.139s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[3.140s] -- Installing: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[3.140s] -- Installing: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[3.140s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[3.141s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.142s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[3.142s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[3.142s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[3.153s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[3.154s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[3.159s] -- Up-to-date: /home/ice/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[3.179s] Invoked command in '/home/ice/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/ice/microros_ws/install/micro_ros_msgs:/home/ice/microros_ws/install/micro_ros_setup:/home/ice/microros_ws/install/micro_ros_agent:/home/ice/polaris_ws/install/services:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/microros_ws/install/micro_ros_msgs/lib:/home/ice/microros_ws/install/micro_ros_agent/lib:/home/ice/polaris_ws/install/services/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ice/microros_ws/build/micro_ros_agent

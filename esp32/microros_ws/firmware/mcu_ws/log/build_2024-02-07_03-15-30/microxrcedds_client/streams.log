@@ -1,0 +1,124 @@
+[0.196s] Invoking command in '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client -- -j2 -l2
+[0.267s] gmake[4]: Entering directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.267s] /usr/bin/cmake -S/home/ice/microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client -B/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client --check-build-system CMakeFiles/Makefile.cmake 0
+[0.279s] Re-run cmake file: Makefile older than: /home/ice/microros_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+[0.303s] -- Configuring done
+[0.333s] -- Generating done
+[0.362s] -- Build files have been written to: /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client
+[0.362s] /usr/bin/cmake -E cmake_progress_start /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client//CMakeFiles/progress.marks
+[0.379s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.388s] gmake[5]: Entering directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.388s] /usr/bin/gmake  -f CMakeFiles/microxrcedds_client.dir/build.make CMakeFiles/microxrcedds_client.dir/depend
+[0.395s] gmake[6]: Entering directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.395s] cd /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ice/microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client /home/ice/microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/DependInfo.cmake --color=
+[0.416s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.417s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.418s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.418s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.419s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.419s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.419s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.419s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.420s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.421s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.422s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.422s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.422s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.422s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.422s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.422s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj.d" is newer than depends file "/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.422s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_client[0m
+[0.430s] gmake[6]: Leaving directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.430s] /usr/bin/gmake  -f CMakeFiles/microxrcedds_client.dir/build.make CMakeFiles/microxrcedds_client.dir/build
+[0.438s] gmake[6]: Entering directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.438s] gmake[6]: Nothing to be done for 'CMakeFiles/microxrcedds_client.dir/build'.
+[0.438s] gmake[6]: Leaving directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.472s] [100%] Built target microxrcedds_client
+[0.474s] gmake[5]: Leaving directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.474s] /usr/bin/cmake -E cmake_progress_start /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles 0
+[0.504s] gmake[4]: Leaving directory '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.603s] Invoked command in '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client -- -j2 -l2
+[1.046s] Invoking command in '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client
+[1.065s] -- Install configuration: "Debug"
+[1.066s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/lib/libmicroxrcedds_client.a
+[1.068s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client
+[1.069s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile
+[1.069s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport
+[1.069s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip
+[1.069s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp
+[1.070s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[1.070s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[1.071s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[1.071s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[1.071s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[1.072s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[1.072s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp
+[1.072s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[1.073s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[1.073s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[1.078s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/ip.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom/custom_transport.h
+[1.079s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/can
+[1.080s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/can/can_transport.h
+[1.080s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/can/can_transport_posix.h
+[1.080s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing
+[1.080s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[1.081s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/multithread
+[1.110s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/multithread/multithread.h
+[1.112s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/discovery
+[1.112s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/profile/discovery/discovery.h
+[1.112s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/transport.h
+[1.113s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/visibility.h
+[1.113s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/client.h
+[1.114s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/defines.h
+[1.114s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core
+[1.114s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session
+[1.115s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_bin.h
+[1.115s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/session_info.h
+[1.123s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream
+[1.123s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_reliable_stream.h
+[1.124s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/seq_num.h
+[1.124s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[1.124s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/reliable_stream.h
+[1.124s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[1.125s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_reliable_stream.h
+[1.126s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_id.h
+[1.127s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_storage.h
+[1.127s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/common_create_entities.h
+[1.127s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/time_sync.h
+[1.127s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/object_id.h
+[1.128s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/session.h
+[1.128s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_xml.h
+[1.128s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/write_access.h
+[1.129s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_ref.h
+[1.129s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/session/read_access.h
+[1.129s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/communication
+[1.129s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/communication/communication.h
+[1.129s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/type
+[1.130s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/core/type/xrce_types.h
+[1.130s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/util
+[1.131s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/util/time.h
+[1.131s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/util/ping.h
+[1.131s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/include/uxr/client/config.h
+[1.132s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[1.133s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets-debug.cmake
+[1.134s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[1.147s] -- Up-to-date: /home/ice/microros_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[1.148s] Invoked command in '/home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ice/microros_ws/firmware/mcu_ws/build/microxrcedds_client

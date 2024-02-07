@@ -1,0 +1,39 @@
+[1.820s] Invoking command in '/home/ice/microros_ws/firmware/mcu_ws/uros/tracetools/ros2trace': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/ice/microros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed
+[2.194s] running egg_info
+[2.209s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[2.212s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[2.216s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[2.218s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[2.219s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[2.264s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[2.273s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[2.274s] running build
+[2.274s] running build_py
+[2.281s] copying ros2trace/__init__.py -> /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[2.297s] copying ros2trace/command/trace.py -> /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[2.304s] copying ros2trace/command/__init__.py -> /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[2.308s] copying ros2trace/api/__init__.py -> /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[2.312s] running install
+[2.313s] /home/ice/microros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.314s] !!
+[2.314s] 
+[2.315s]         ********************************************************************************
+[2.315s]         Please avoid running ``setup.py`` directly.
+[2.315s]         Instead, use pypa/build, pypa/installer or other
+[2.315s]         standards-based tools.
+[2.315s] 
+[2.315s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.315s]         ********************************************************************************
+[2.316s] 
+[2.316s] !!
+[2.316s]   self.initialize_options()
+[2.326s] running install_lib
+[2.346s] running install_data
+[2.361s] copying package.xml -> /home/ice/microros_ws/firmware/mcu_ws/install/share/ros2trace
+[2.361s] copying resource/ros2trace -> /home/ice/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[2.361s] running install_egg_info
+[2.381s] removing '/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info' (and everything under it)
+[2.390s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info
+[2.391s] running install_scripts
+[2.505s] writing list of installed files to '/home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/install.log'
+[2.579s] Invoked command in '/home/ice/microros_ws/firmware/mcu_ws/uros/tracetools/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/ice/microros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/ice/microros_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+Invoking command in '/home/ice/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/microros_ws/build/micro_ros_setup -- -j2 -l2
+Invoked command in '/home/ice/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/microros_ws/build/micro_ros_setup -- -j2 -l2
+Invoking command in '/home/ice/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/microros_ws/build/micro_ros_setup
+Invoked command in '/home/ice/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/microros_ws/build/micro_ros_setup

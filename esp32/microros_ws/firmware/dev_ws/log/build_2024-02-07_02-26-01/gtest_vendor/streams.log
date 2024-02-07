@@ -1,0 +1,52 @@
+[0.071s] Invoking command in '/home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/ice/microros_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor
+[0.110s] -- Configuring done
+[0.113s] -- Generating done
+[0.115s] -- Build files have been written to: /home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor
+[0.120s] Invoked command in '/home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/ice/microros_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor
+[0.120s] Invoking command in '/home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor -- -j2 -l2
+[0.215s] Invoked command in '/home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor -- -j2 -l2
+[0.303s] Invoking command in '/home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor
+[0.327s] -- Install configuration: ""
+[0.328s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/share/gtest_vendor/cmake/gtest_vendorConfig.cmake
+[0.331s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/share/gtest_vendor/package.xml
+[0.333s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/CMakeLists.txt
+[0.334s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest
+[0.335s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-message.h
+[0.336s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-spi.h
+[0.337s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-death-test.h
+[0.338s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-matchers.h
+[0.339s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-printers.h
+[0.340s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-param-test.h
+[0.354s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal
+[0.354s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-filepath.h
+[0.357s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h.pump
+[0.360s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h
+[0.360s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-string.h
+[0.360s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom
+[0.362s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/README.md
+[0.362s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-printers.h
+[0.363s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-port.h
+[0.364s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest.h
+[0.366s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h
+[0.368s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port.h
+[0.369s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-internal.h
+[0.370s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port-arch.h
+[0.371s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util.h
+[0.372s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h
+[0.375s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_pred_impl.h
+[0.377s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-test-part.h
+[0.378s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-typed-test.h
+[0.379s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_prod.h
+[0.380s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src
+[0.380s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-matchers.cc
+[0.382s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-test-part.cc
+[0.382s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-filepath.cc
+[0.382s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-port.cc
+[0.383s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-death-test.cc
+[0.384s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest_main.cc
+[0.385s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-internal-inl.h
+[0.386s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-printers.cc
+[0.386s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest.cc
+[0.387s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc
+[0.387s] -- Installing: /home/ice/microros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-typed-test.cc
+[0.393s] Invoked command in '/home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/ice/microros_ws/firmware/dev_ws/build/gtest_vendor

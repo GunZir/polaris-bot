@@ -1,0 +1,38 @@
+[2.003s] Invoking command in '/home/ice/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ice/microros_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/ice/microros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed
+[2.478s] running egg_info
+[2.493s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[2.497s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[2.497s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[2.497s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[2.525s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.526s] adding license file 'LICENSE'
+[2.528s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.529s] running build
+[2.529s] running build_py
+[2.530s] copying sensor_msgs_py/point_cloud2.py -> /home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.530s] copying sensor_msgs_py/__init__.py -> /home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.532s] copying sensor_msgs_py/numpy_compat.py -> /home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.534s] running install
+[2.534s] /home/ice/microros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.534s] !!
+[2.534s] 
+[2.534s]         ********************************************************************************
+[2.535s]         Please avoid running ``setup.py`` directly.
+[2.535s]         Instead, use pypa/build, pypa/installer or other
+[2.535s]         standards-based tools.
+[2.535s] 
+[2.535s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.535s]         ********************************************************************************
+[2.535s] 
+[2.535s] !!
+[2.535s]   self.initialize_options()
+[2.545s] running install_lib
+[2.564s] running install_data
+[2.576s] copying resource/sensor_msgs_py -> /home/ice/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[2.576s] copying package.xml -> /home/ice/microros_ws/firmware/mcu_ws/install/share/sensor_msgs_py
+[2.577s] running install_egg_info
+[2.594s] removing '/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py-4.2.3-py3.10.egg-info' (and everything under it)
+[2.594s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py-4.2.3-py3.10.egg-info
+[2.598s] running install_scripts
+[2.739s] writing list of installed files to '/home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log'
+[2.824s] Invoked command in '/home/ice/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ice/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ice/microros_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/ice/microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ice/microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/ice/microros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/ice/microros_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed
