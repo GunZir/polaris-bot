@@ -57,8 +57,8 @@ After run command, text editor shold appear.
 In our project, the content in file .msg we will create int32 and string message type so we will add the following line to text editor.
 
 ```plaintext
-int32 test_int32
-string test_string
+uint32 right_motor_speed
+uint32 left_motor_speed
 ```
 
 Then save and exit.
