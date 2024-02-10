@@ -1,6 +1,9 @@
+
 ## Micro-ROS application on Linux
 
 Micro-ROS is a framework used to connect large-scale control systems, such as robotic operating systems or ROS, with systems that have limited resources, such as microcontrollers like the ESP32. Micro-ROS is essential for cross-platform operations, with Micro-ROS using ROS as the interface for operations on various microcontrollers, such as the ESP32.
+
+**Table of contents**
 
 [Install micro-ROS](#Install%20micro-ROS )
 
@@ -9,13 +12,11 @@ Micro-ROS is a framework used to connect large-scale control systems, such as ro
 
 [Firmware](#Creating%20a%20new%20firmware%20workspace)
 
-[#Update code](#Update%20code)
+[Update code](#Update code)
 
-[Change app](#Change%20app)
+[Change app](#Change app)
 
-
-
-### Install micro-ROS
+## Install micro-ROS
 
 Before we start, you must already install ROS2 Iron/Humble on your Ubuntu computer via Debian packages. If you have't install ROS2 you can install by follow the instruction detailed [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
 
@@ -28,7 +29,7 @@ source /opt/ros/$ROS_DISTRO/setup.bash
   
 for call optional package application before install micro-ROS.
 
-create your folder or workspace for micro-ROS
+-create your folder or workspace for micro-ROS
 
 ```plaintext
 mkdir microros_ws
@@ -54,36 +55,12 @@ install python3 package.
 sudo apt-get install python3-pip
 ```
 
-———
-
 Build micro-ROS tools and source them
 
 ```plaintext
 colcon build
 source install/local_setup.bash
 ```
-
-
-## Clone Polaris-Bot Project Directory
-
-If you don't want to install micro-ROS package by you own , you can use command `git clone` to clone our project from our github and add to your work space.
-
-```plaintext
-git clone https://github.com/GunZir/polaris-bot.git
-```
-
-
-## Creating a new firmware workspace
-
-After build system had install, for working on microcontrollers like ESP32, creating middleware for cross-platform operations on our own is challenging. Therefore, we will use firmware specifically developed for operating on ESP32 with ROS, named `freeRTOS`.
-
-Install middleware or firmware, freeRTOS, by running the command below.
-
-```plaintext
-ros2 run micro_ros_setup create_firmware_ws.sh freertos esp32
-```
-
-Folder named 'firmware' should appear in your directory or workspace after the command has succeeded.
 
 **Creating the micro-ROS agent**
 
@@ -105,17 +82,68 @@ ros2 run micro_ros_setup build_agent.sh
 source install/local_setup.bash
 ```
 
-clone?  
+## Clone Polaris-Bot Project Directory
+
+If you don't want to install micro-ROS package by you own , you can use command `git clone` to clone our project from our github and add to your work space.
+
+```plaintext
+#if you are still in microros_ws/, you should back to your home directory
+cd 
+
+git clone https://github.com/GunZir/polaris-bot.git
+```
+
+## Creating a new firmware workspace
+
+After build system had install, for working on microcontrollers like ESP32, creating middleware for cross-platform operations on our own is challenging. Therefore, we will use firmware specifically developed for operating on ESP32 with ROS, named `freeRTOS`.
+
+create firmware in directory polaris/src
+
+```plaintext
+cd polaris/src
+```
+
+Install middleware or firmware, freeRTOS, by running the command below.
+
+```plaintext
+ros2 run micro_ros_setup create_firmware_ws.sh freertos esp32
+```
+
+Folder named 'firmware' should appear in your directory or workspace after the command has succeeded.
+
+Move app directories into /firmware/freertos_apps/apps
+
+```plaintext
+ติดไว้ก่อน
+```
+
   
-**Configuring the firmware**
+Configuring the firmware
 
 ```plaintext
 ros2 run micro_ros_setup configure_firmware.sh [APP] [OPTIONS]
 ```
 
+-   [APP] is your executable folder in `app` folder from `freesrtos app` folder
+
+For [OPTIONS] you can add an attribute for spacific the method for communication between microcontroller and your OS.
+
+-   `--transport` or `-t` follew by `udp` , `serial` or any hardware-specific transport label
+-   `--dev` or `-d`: agent string descriptor in a serial-like transport
+-   `--ip` or `-i`: agent IP in a network-like transport
+-   `--port` or `-p`: agent port in a network-like transport
+
+example :
+
+```plaintext
+ros2 run micro_ros_setup configure_firmware.sh int32_publisher -t serial
+```
+
+this command mean that we `configure` the app name `int32_publisher` to communicate with `serial communication` method.
+
 **Building the firmware**
 
-When the configuring step ends, just build the firmware:
+When the configuring step ends, we will build the firmware by using command:
 
 ```plaintext
 ros2 run micro_ros_setup build_firmware.sh
@@ -139,9 +167,17 @@ To give micro-ROS access to the ROS 2 dataspace, run the agent:
 ros2 run micro_ros_agent micro_ros_agent serial --dev [device]
 ```
 
-If the run is successful, unplug and plug in again.
+example :
 
-**Repeat 6 to 7 when change code in app, repeat 5 to 7 when change app**
+```plaintext
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
+```
+
+`--dev /dev/ttyUSB0` specifies the device to be used for communication, in this case, a device connected via serial and named /dev/ttyUSB0.
+
+***If the run is successful, unplug and plug in again.**
+
+----------
 
 ### Update code
 
@@ -188,3 +224,4 @@ ros2 run micro_ros_setup flash_firmware.sh
 ```plaintext
 ros2 run micro_ros_agent micro_ros_agent serial --dev [device]
 ```
+
