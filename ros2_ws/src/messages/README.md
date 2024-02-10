@@ -1,225 +1,187 @@
-## Micro-ROS application on Linux
+## Custom message
 
-Micro-ROS is a framework used to connect large-scale control systems, such as robotic operating systems or ROS, with systems that have limited resources, such as microcontrollers like the ESP32. Micro-ROS is essential for cross-platform operations, with Micro-ROS using ROS as the interface for operations on various microcontrollers, such as the ESP32.
+In this case, we want to define the message type to exchange specific data between ROS2 node and microcontroller. So, the custom message should be the way that we will implement into our project to exchange data with ESP32.
 
-**Table of contents**
-
-[Install micro-ROS](#Install micro-ROS )
-
--   [For create new directory.](#Install micro-ROS)
--   [For clone directory from our github.](#Clone Polaris-Bot Project Directory)
-
-[Firmware](#Creating a new firmware workspace)
-
-[Update code](#Update code)
-
-[Change app](#Change app)
-
-## Install micro-ROS
-
-Before we start, you must already install ROS2 Iron/Humble on your Ubuntu computer via Debian packages. If you have't install ROS2 you can install by follow the instruction detailed [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
-
-After you follow the instruction or already have ROS2 installed on your computer,either Iron or Humble, we will run the command
+cd into directory firmware/mcu_ws
 
 ```plaintext
-source /opt/ros/$ROS_DISTRO/setup.bash
+cd firmware/mcu_ws
 ```
 
-  
-for call optional package application before install micro-ROS.
-
--create your folder or workspace for micro-ROS
+then create the package for contain `custom message file`.
 
 ```plaintext
-mkdir microros_ws
-cd microros_ws
+ros2 pkg create --build-type ament_cmake [pkg_name]
 ```
 
-Use `git clone ###` command for download the micro-ROS tool from github.
+example:
 
 ```plaintext
-git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
+ros2 pkg create --build-type ament_cmake my_custom_message
 ```
 
-update dependencies by using `rosdep` command.
+cd into [pkg_name] for create directory msg.
 
 ```plaintext
-sudo apt update && rosdep update
-rosdep install --from-paths src --ignore-src -y
+cd [pkg_name]
 ```
 
-install python3 package.
+example:
 
 ```plaintext
-sudo apt-get install python3-pip
+cd my_custom_message
 ```
 
-Build micro-ROS tools and source them
+create `msg` directory.
+
+```plaintext
+mkdir msg
+```
+
+create file .msg file in directory msg.
+
+```plaintext
+nano msg/[msg_name].msg
+```
+
+> The msg file name must be `PascalCase`.
+
+example:
+
+```plaintext
+nano msg/MyCustomMessage.msg
+```
+
+After run command, text editor shold appear.
+
+In our project, the content in file .msg we will create int32 and string message type so we will add the following line to text editor.
+
+```plaintext
+int32 test_int32
+string test_string
+```
+
+Then save and exit.
+
+### Edit CMakeLists.txt file
+
+We have to edit `CmakeLists.txt` file, by add IDLs file in the package, because adding IDLs files to ROS2 package is essential for defining the message type witch these message definitions allow for seamless communication between nodes that written in different programming languages by standardized structure that can be translated into code in the desired language.
+
+So, you can follew all step to add IDLs file (.idl), start with :
+
+```plaintext
+nano msg/CMakeList.txt
+```
+
+add this command below dependencies file
+
+```plaintext
+...
+find_package(rosidl_default_generators REQUIRED) rosidl_generate_interfaces(${PROJECT_NAME} "msg/[msg name].msg" )
+....
+```
+
+example:
+
+```plaintext
+# find dependenciese
+find_package(rosidl_default_generators REQUIRED) rosidl_generate_interfaces(${PROJECT_NAME} "msg/MyCustomMessage.msg" )
+```
+
+Edit file `package.xml` with your prefer text editor but in this case we are using nano to edit package file.
+
+```plaintext
+nano msg/package.xml
+```
+
+Add all following line In `package.xml` file.
+
+```plaintext
+<build_depend>rosidl_default_generators</build_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+save and exit.
+
+### Build firmware
+
+change directory to your ROS2 worlspace.
+
+```plaintext
+cd ../ros2_ws/src
+```
+
+run command to build firmware in workspace
+
+```plaintext
+ros2 run micro_ros_setup build_firmware.sh
+```
+
+Copy the package to ros2_ws
+
+```plaintext
+cp -r firmware/mcu_ws/[pkg_name] .
+```
+
+example:
+
+```plaintext
+cp -r firmware/mcu_ws/my_custom_massage .
+```
+
+Change directory to ros2_ws and build the enviroment.
 
 ```plaintext
 colcon build
-source install/local_setup.bash
 ```
 
-**Creating the micro-ROS agent**
 
-The micro-ROS app is now ready to be connected to a micro-ROS agent to start talking with the rest of the ROS 2 world. To do that, let’s first of all create a micro-ROS agent:
+//include msg ไปยังไฟล์ที่ต้องการใช้(app.c) ไม่เข้าใจนิดหน่อย แต่งงมากๆ
 
-```plaintext
-ros2 run micro_ros_setup create_agent_ws.sh
-```
-
-**Building the micro-ROS agent**
-
-Now, let’s build the agent packages and, when this is done, source the installation:
+Include message package in file `app.c`.
 
 ```plaintext
-ros2 run micro_ros_setup build_agent.sh
-```
-
-```plaintext
-source install/local_setup.bash
-```
-
-## Clone Polaris-Bot Project Directory
-
-If you don't want to install micro-ROS package by you own , you can use command `git clone` to clone our project from our github and add to your work space.
-
-```plaintext
-#if you are still in microros_ws/, you should back to your home directory
-cd 
-
-git clone https://github.com/GunZir/polaris-bot.git
-```
-
-## Creating a new firmware workspace
-
-After build system had install, for working on microcontrollers like ESP32, creating middleware for cross-platform operations on our own is challenging. Therefore, we will use firmware specifically developed for operating on ESP32 with ROS, named `freeRTOS`.
-
-create firmware in directory polaris/src
-
-```plaintext
-cd polaris_bot/ros2_ws/src
-```
-
-Install middleware or firmware, freeRTOS, by running the command below.
-
-```plaintext
-ros2 run micro_ros_setup create_firmware_ws.sh freertos esp32
-```
-
-Folder named 'firmware' should appear in your directory or workspace after the command has succeeded.
-
-Move app directories into /firmware/freertos_apps/apps
-
-```plaintext
-cp -r apps/* firmware/freertos_apps/apps/.
+#include <[pkg name]/msg/[msg_name].h>
 ```
 
   
-Configuring the firmware
+
+Header files (.h) that include other files must use snake_case for naming. One reason we use snake_case is because the C and C++ standard libraries often use snake_case for naming header files, and we want to avoid collisions of file names too.
+
+So, to name a message file from `MyCustomMessage`, it should be turned into `my_custom_message` following the snake_case convention.
+
+example:
 
 ```plaintext
-ros2 run micro_ros_setup configure_firmware.sh [APP] [OPTIONS]
+#include <my_custom_message/msg/my_custom_message.h>
 ```
 
--   [APP] is your executable folder in `app` folder from `freesrtos app` folder
-
-For [OPTIONS] you can add an attribute for spacific the method for communication between microcontroller and your OS.
-
--   `--transport` or `-t` follew by `udp` , `serial` or any hardware-specific transport label
--   `--dev` or `-d`: agent string descriptor in a serial-like transport
--   `--ip` or `-i`: agent IP in a network-like transport
--   `--port` or `-p`: agent port in a network-like transport
-
-example :
+Configure the msg type by using  
+pkg_name__msg__MsgName msg;  
 
 ```plaintext
-ros2 run micro_ros_setup configure_firmware.sh int32_publisher -t serial
+[pkg_name: snake_case]__msg__[MsgName:PascalCase] [varient]
 ```
-
-this command mean that we `configure` the app name `int32_publisher` to communicate with `serial communication` method.
-
-**Building the firmware**
-
-When the configuring step ends, we will build the firmware by using command:
-
-```plaintext
-ros2 run micro_ros_setup build_firmware.sh
-```
-
-**Flashing the firmware**
-
-Flashing the firmware into the platform varies across hardware platforms.
-
-```plaintext
-ros2 run micro_ros_setup flash_firmware.sh
-```
-
-**Running the micro-ROS app**
-
-At this point, you have both the client and the agent correctly installed in your host machine.
-
-To give micro-ROS access to the ROS 2 dataspace, run the agent:
-
-```plaintext
-ros2 run micro_ros_agent micro_ros_agent serial --dev [device]
-```
-
-example :
-
-```plaintext
-ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
-```
-
-`--dev /dev/ttyUSB0` specifies the device to be used for communication, in this case, a device connected via serial and named /dev/ttyUSB0.
-
-***If the run is successful, unplug and plug in again.**
 
 ----------
 
-### Update code
+If you **make changes to the .msg file**, adjustments **must be made on both ends** as the data type being transmitted and received must match.
 
--   Building the firmware
+Copy package to `ros2_ws`
 
 ```plaintext
-ros2 run micro_ros_setup build_firmware.sh
+cp -r firmware/mcu_ws/[pkg_name] .
 ```
 
--   Flashing the firmware
+example:
 
 ```plaintext
-ros2 run micro_ros_setup flash_firmware.sh
+cp -r firmware/mcu_ws/my_custom_massage .
 ```
 
--   Running the micro-ROS app
+Change directory to `ros2_ws` and build the enviroment by :
 
 ```plaintext
-ros2 run micro_ros_agent micro_ros_agent serial --dev [device]
-```
-
-### Change app
-
--   Configuring the firmware
-
-```plaintext
-ros2 run micro_ros_setup configure_firmware.sh [APP] [OPTIONS]
-```
-
--   Building the firmware
-
-```plaintext
-ros2 run micro_ros_setup build_firmware.sh
-```
-
--   Flashing the firmware
-
-```plaintext
-ros2 run micro_ros_setup flash_firmware.sh
-```
-
--   Running the micro-ROS app
-
-```plaintext
-ros2 run micro_ros_agent micro_ros_agent serial --dev [device]
+colcon build
 ```
