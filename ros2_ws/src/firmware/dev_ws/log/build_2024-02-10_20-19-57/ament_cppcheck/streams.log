@@ -1,0 +1,37 @@
+[1.348s] Invoking command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_lint/ament_cppcheck': PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed
+[2.159s] running egg_info
+[2.160s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[2.160s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[2.161s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[2.162s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[2.162s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[2.162s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[2.163s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[2.165s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[2.167s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[2.168s] running build
+[2.168s] running build_py
+[2.169s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build
+[2.170s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build/lib
+[2.170s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[2.171s] copying ament_cppcheck/main.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[2.171s] copying ament_cppcheck/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[2.171s] running install
+[2.171s] running install_lib
+[2.173s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[2.175s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[2.175s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[2.176s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck/main.py to main.cpython-310.pyc
+[2.180s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck/__init__.py to __init__.cpython-310.pyc
+[2.181s] running install_data
+[2.181s] copying package.xml -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/share/ament_cppcheck
+[2.183s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/share/ament_index
+[2.183s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index
+[2.183s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[2.183s] copying resource/ament_cppcheck -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[2.184s] running install_egg_info
+[2.187s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck-0.12.10-py3.10.egg-info
+[2.188s] running install_scripts
+[2.234s] Installing ament_cppcheck script to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/bin
+[2.235s] writing list of installed files to '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/install.log'
+[2.318s] Invoked command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed

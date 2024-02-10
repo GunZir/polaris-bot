@@ -1,0 +1,116 @@
+[2.279s] Invoking command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_package': PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed
+[2.657s] running egg_info
+[2.659s] creating ../../build/ament_package/ament_package.egg-info
+[2.659s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[2.660s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[2.660s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[2.660s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[2.670s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[2.671s] adding license file 'LICENSE'
+[2.675s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[2.676s] running build
+[2.676s] running build_py
+[2.676s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build
+[2.676s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib
+[2.676s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[2.676s] copying ament_package/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[2.677s] copying ament_package/templates.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[2.677s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[2.681s] copying ament_package/template/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[2.681s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.681s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.694s] copying ament_package/template/prefix_level/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.697s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.700s] copying ament_package/template/package_level/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.700s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.717s] copying ament_package/template/environment_hook/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.717s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[2.717s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[2.718s] copying ament_package/template/isolated_prefix_level/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[2.719s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/path.bat -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/library_path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.745s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[2.746s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[2.746s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[2.746s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[2.746s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[2.746s] copying ament_package/template/package_level/local_setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.746s] copying ament_package/template/package_level/local_setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.746s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.746s] copying ament_package/template/package_level/local_setup.bash.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[2.746s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.746s] copying ament_package/template/prefix_level/setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.746s] copying ament_package/template/prefix_level/setup.zsh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.746s] copying ament_package/template/prefix_level/local_setup.bash -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.746s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.747s] copying ament_package/template/prefix_level/setup.bash -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.747s] copying ament_package/template/prefix_level/setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.747s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[2.747s] running install
+[2.747s] running install_lib
+[2.747s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[2.747s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template
+[2.748s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.748s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.748s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.748s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.753s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.753s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.753s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.753s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.753s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.753s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.754s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[2.754s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[2.754s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[2.754s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[2.754s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[2.754s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[2.754s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[2.755s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.755s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.755s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.755s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.756s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.756s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.756s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.756s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.757s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.757s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.757s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[2.758s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template
+[2.758s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[2.759s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build/lib/ament_package/templates.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level/__init__.py to __init__.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level/__init__.py to __init__.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook/__init__.py to __init__.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/__init__.py to __init__.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/__init__.py to __init__.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/__init__.py to __init__.cpython-310.pyc
+[2.759s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/templates.py to templates.cpython-310.pyc
+[2.759s] running install_data
+[2.760s] copying package.xml -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/share/ament_package
+[2.760s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/share/ament_index
+[2.760s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/share/ament_index/resource_index
+[2.760s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[2.760s] copying resource/ament_package -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[2.760s] running install_egg_info
+[2.760s] Copying ../../build/ament_package/ament_package.egg-info to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package-0.14.0-py3.10.egg-info
+[2.760s] running install_scripts
+[2.778s] writing list of installed files to '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/install.log'
+[3.020s] Invoked command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_package' returned '0': PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed

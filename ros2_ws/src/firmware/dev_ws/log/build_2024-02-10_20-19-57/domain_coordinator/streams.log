@@ -1,0 +1,35 @@
+[1.277s] Invoking command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator': AMENT_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed
+[1.644s] running egg_info
+[1.644s] creating ../../../build/domain_coordinator/domain_coordinator.egg-info
+[1.644s] writing ../../../build/domain_coordinator/domain_coordinator.egg-info/PKG-INFO
+[1.645s] writing dependency_links to ../../../build/domain_coordinator/domain_coordinator.egg-info/dependency_links.txt
+[1.645s] writing requirements to ../../../build/domain_coordinator/domain_coordinator.egg-info/requires.txt
+[1.645s] writing top-level names to ../../../build/domain_coordinator/domain_coordinator.egg-info/top_level.txt
+[1.645s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.648s] reading manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.651s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.651s] running build
+[1.651s] running build_py
+[1.651s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build
+[1.652s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build/lib
+[1.652s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[1.652s] copying domain_coordinator/impl.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[1.652s] copying domain_coordinator/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[1.652s] running install
+[1.652s] running install_lib
+[1.653s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[1.653s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator/impl.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[1.653s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[1.654s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator/impl.py to impl.cpython-310.pyc
+[1.655s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator/__init__.py to __init__.cpython-310.pyc
+[1.655s] running install_data
+[1.656s] copying package.xml -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/share/domain_coordinator
+[1.657s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/share/ament_index
+[1.657s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index
+[1.657s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[1.657s] copying resource/domain_coordinator -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[1.658s] running install_egg_info
+[1.672s] Copying ../../../build/domain_coordinator/domain_coordinator.egg-info to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator-0.10.0-py3.10.egg-info
+[1.672s] running install_scripts
+[1.715s] writing list of installed files to '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/install.log'
+[1.770s] Invoked command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed

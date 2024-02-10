@@ -1,0 +1,16 @@
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_index/resource_index/package_run_dependencies/ament_cmake
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_index/resource_index/parent_prefix_path/ament_cmake
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.sh
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.dsv
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/environment/path.sh
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/environment/path.dsv
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/local_setup.bash
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/local_setup.sh
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/local_setup.zsh
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/local_setup.dsv
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/package.dsv
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_index/resource_index/packages/ament_cmake
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig.cmake
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake
+/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_cmake/share/ament_cmake/package.xml

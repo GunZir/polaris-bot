@@ -1,0 +1,41 @@
+[1.210s] Invoking command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_lint/ament_clang_format': AMENT_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed
+[1.618s] running egg_info
+[1.619s] creating ../../../build/ament_clang_format/ament_clang_format.egg-info
+[1.619s] writing ../../../build/ament_clang_format/ament_clang_format.egg-info/PKG-INFO
+[1.620s] writing dependency_links to ../../../build/ament_clang_format/ament_clang_format.egg-info/dependency_links.txt
+[1.621s] writing entry points to ../../../build/ament_clang_format/ament_clang_format.egg-info/entry_points.txt
+[1.621s] writing requirements to ../../../build/ament_clang_format/ament_clang_format.egg-info/requires.txt
+[1.621s] writing top-level names to ../../../build/ament_clang_format/ament_clang_format.egg-info/top_level.txt
+[1.622s] writing manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[1.626s] reading manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[1.629s] writing manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[1.629s] running build
+[1.629s] running build_py
+[1.631s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build
+[1.631s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib
+[1.631s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[1.632s] copying ament_clang_format/main.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[1.632s] copying ament_clang_format/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[1.633s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[1.633s] copying ament_clang_format/configuration/.clang-format -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[1.634s] running install
+[1.635s] running install_lib
+[1.636s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format
+[1.637s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/main.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format
+[1.639s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format/configuration
+[1.655s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration/.clang-format -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format/configuration
+[1.655s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format
+[1.688s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format/main.py to main.cpython-310.pyc
+[1.688s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format/__init__.py to __init__.cpython-310.pyc
+[1.688s] running install_data
+[1.688s] copying package.xml -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/share/ament_clang_format
+[1.689s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/share/ament_index
+[1.689s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index
+[1.689s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[1.689s] copying resource/ament_clang_format -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[1.689s] running install_egg_info
+[1.689s] Copying ../../../build/ament_clang_format/ament_clang_format.egg-info to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages/ament_clang_format-0.12.10-py3.10.egg-info
+[1.689s] running install_scripts
+[1.724s] Installing ament_clang_format script to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/bin
+[1.725s] writing list of installed files to '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/install.log'
+[1.797s] Invoked command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_lint/ament_clang_format' returned '0': AMENT_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_clang_format/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed

@@ -1,0 +1,79 @@
+[1.935s] Invoking command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed
+[2.313s] running egg_info
+[2.316s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[2.317s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[2.318s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[2.318s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[2.319s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[2.319s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[2.322s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.345s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.358s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.360s] running build
+[2.361s] running build_py
+[2.362s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build
+[2.364s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib
+[2.365s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[2.365s] copying ament_pclint/main.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[2.366s] copying ament_pclint/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[2.366s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.367s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.367s] copying ament_pclint/config/gcc/co-g++.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.368s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.368s] copying ament_pclint/config/gcc/co-gcc.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.369s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.369s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.369s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.370s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.370s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.371s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.371s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.371s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.372s] copying ament_pclint/config/msvc/co-cl.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.372s] copying ament_pclint/config/au-misra3.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.373s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.374s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.375s] copying ament_pclint/config/c99.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.375s] copying ament_pclint/config/c++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.377s] copying ament_pclint/config/deprecate.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.378s] copying ament_pclint/config/env-xml.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.379s] running install
+[2.380s] running install_lib
+[2.382s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint
+[2.382s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.383s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.383s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.384s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.384s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.385s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.385s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.386s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.387s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.388s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.388s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.389s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.389s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.389s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.390s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.390s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.391s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.391s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.391s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.392s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.392s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.393s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint
+[2.393s] copying /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint
+[2.396s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/main.py to main.cpython-310.pyc
+[2.400s] byte-compiling /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/__init__.py to __init__.cpython-310.pyc
+[2.400s] running install_data
+[2.401s] copying package.xml -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[2.402s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/share/ament_index
+[2.402s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[2.403s] creating /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[2.403s] copying resource/ament_pclint -> /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[2.403s] running install_egg_info
+[2.406s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint-0.12.10-py3.10.egg-info
+[2.407s] running install_scripts
+[2.443s] Installing ament_pclint script to /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/bin
+[2.445s] writing list of installed files to '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/install.log'
+[2.524s] Invoked command in '/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint PATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/bin:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/prefix_override:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/build install --record /home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed
