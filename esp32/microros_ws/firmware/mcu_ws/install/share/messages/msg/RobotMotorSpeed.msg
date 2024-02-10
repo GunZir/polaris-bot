@@ -1,2 +1,0 @@
-int8 right_motor_speed
-int8 left_motor_speed

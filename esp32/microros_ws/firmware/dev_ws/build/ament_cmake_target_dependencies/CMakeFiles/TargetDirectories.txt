@@ -1,7 +1,0 @@
-/home/ice/microros_ws/firmware/dev_ws/build/ament_cmake_target_dependencies/CMakeFiles/uninstall.dir
-/home/ice/microros_ws/firmware/dev_ws/build/ament_cmake_target_dependencies/CMakeFiles/ament_cmake_target_dependencies_uninstall.dir
-/home/ice/microros_ws/firmware/dev_ws/build/ament_cmake_target_dependencies/CMakeFiles/edit_cache.dir
-/home/ice/microros_ws/firmware/dev_ws/build/ament_cmake_target_dependencies/CMakeFiles/rebuild_cache.dir
-/home/ice/microros_ws/firmware/dev_ws/build/ament_cmake_target_dependencies/CMakeFiles/list_install_components.dir
-/home/ice/microros_ws/firmware/dev_ws/build/ament_cmake_target_dependencies/CMakeFiles/install.dir
-/home/ice/microros_ws/firmware/dev_ws/build/ament_cmake_target_dependencies/CMakeFiles/install/local.dir

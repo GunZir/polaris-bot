@@ -1,0 +1,6 @@
+{
+  "package_name": "services",
+  "non_idl_tuples": [
+    "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services:srv/TestService.srv"
+  ]
+}
