@@ -1,8 +1,8 @@
-# Install script for directory: /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/messages__py
+# Install script for directory: /home/ice/polaris-bot/ros2_ws/build/messages/messages__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/install/messages")
+  set(CMAKE_INSTALL_PREFIX "/home/ice/polaris-bot/ros2_ws/install/messages")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

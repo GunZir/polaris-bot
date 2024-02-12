@@ -1,9 +1,9 @@
 {
   "package_name": "services",
-  "output_dir": "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/rosidl_typesupport_cpp/services",
+  "output_dir": "/home/ice/polaris-bot/ros2_ws/build/services/rosidl_typesupport_cpp/services",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/rosidl_adapter/services:srv/TestService.idl"
+    "/home/ice/polaris-bot/ros2_ws/build/services/rosidl_adapter/services:srv/TestService.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -12,6 +12,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/rosidl_adapter/services/srv/TestService.idl"
+    "/home/ice/polaris-bot/ros2_ws/build/services/rosidl_adapter/services/srv/TestService.idl"
   ]
 }

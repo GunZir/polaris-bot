@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/messages
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/messages
 
 # Utility rule file for messages_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/messages_uninstall.dir/compiler_depend.make
 include CMakeFiles/messages_uninstall.dir/progress.make
 
 CMakeFiles/messages_uninstall:
-	/usr/bin/cmake -P /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ice/polaris-bot/ros2_ws/build/messages/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 messages_uninstall: CMakeFiles/messages_uninstall
 messages_uninstall: CMakeFiles/messages_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/messages_uninstall.dir/clean:
 .PHONY : CMakeFiles/messages_uninstall.dir/clean
 
 CMakeFiles/messages_uninstall.dir/depend:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/CMakeFiles/messages_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ice/polaris-bot/ros2_ws/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/polaris-bot/ros2_ws/src/messages /home/ice/polaris-bot/ros2_ws/src/messages /home/ice/polaris-bot/ros2_ws/build/messages /home/ice/polaris-bot/ros2_ws/build/messages /home/ice/polaris-bot/ros2_ws/build/messages/CMakeFiles/messages_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/messages_uninstall.dir/depend
 

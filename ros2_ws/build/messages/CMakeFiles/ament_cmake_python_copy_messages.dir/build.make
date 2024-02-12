@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/messages
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/messages
 
 # Utility rule file for ament_cmake_python_copy_messages.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_messages.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_messages.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_messages:
-	/usr/bin/cmake -E copy_directory /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/rosidl_generator_py/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/ament_cmake_python/messages/messages
+	/usr/bin/cmake -E copy_directory /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_py/messages /home/ice/polaris-bot/ros2_ws/build/messages/ament_cmake_python/messages/messages
 
 ament_cmake_python_copy_messages: CMakeFiles/ament_cmake_python_copy_messages
 ament_cmake_python_copy_messages: CMakeFiles/ament_cmake_python_copy_messages.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_messages.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_messages.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_messages.dir/depend:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/CMakeFiles/ament_cmake_python_copy_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ice/polaris-bot/ros2_ws/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/polaris-bot/ros2_ws/src/messages /home/ice/polaris-bot/ros2_ws/src/messages /home/ice/polaris-bot/ros2_ws/build/messages /home/ice/polaris-bot/ros2_ws/build/messages /home/ice/polaris-bot/ros2_ws/build/messages/CMakeFiles/ament_cmake_python_copy_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_messages.dir/depend
 

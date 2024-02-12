@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/services
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/services
 
 # Utility rule file for ament_cmake_python_copy_services.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_services.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_services.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_services:
-	/usr/bin/cmake -E copy_directory /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/rosidl_generator_py/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/ament_cmake_python/services/services
+	/usr/bin/cmake -E copy_directory /home/ice/polaris-bot/ros2_ws/build/services/rosidl_generator_py/services /home/ice/polaris-bot/ros2_ws/build/services/ament_cmake_python/services/services
 
 ament_cmake_python_copy_services: CMakeFiles/ament_cmake_python_copy_services
 ament_cmake_python_copy_services: CMakeFiles/ament_cmake_python_copy_services.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_services.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_services.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_services.dir/depend:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/CMakeFiles/ament_cmake_python_copy_services.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ice/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/polaris-bot/ros2_ws/src/services /home/ice/polaris-bot/ros2_ws/src/services /home/ice/polaris-bot/ros2_ws/build/services /home/ice/polaris-bot/ros2_ws/build/services /home/ice/polaris-bot/ros2_ws/build/services/CMakeFiles/ament_cmake_python_copy_services.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_services.dir/depend
 

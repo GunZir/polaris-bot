@@ -1,0 +1,6 @@
+[0.211s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/messages -- -j2 -l2
+[0.252s] [0mCMake Error: The current CMakeCache.txt directory /home/ice/polaris-bot/ros2_ws/build/messages/CMakeCache.txt is different than the directory /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.297s] [0mCMake Error: The source directory "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages" does not exist.
+[0.298s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.300s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.306s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/messages -- -j2 -l2

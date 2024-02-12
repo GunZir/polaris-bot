@@ -1,9 +1,9 @@
 {
   "package_name": "messages",
-  "output_dir": "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/rosidl_typesupport_introspection_cpp/messages",
+  "output_dir": "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_typesupport_introspection_cpp/messages",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages:msg/RobotMotorSpeed.idl"
+    "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages:msg/RobotMotorSpeed.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +14,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages/msg/RobotMotorSpeed.idl"
+    "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages/msg/RobotMotorSpeed.idl"
   ]
 }

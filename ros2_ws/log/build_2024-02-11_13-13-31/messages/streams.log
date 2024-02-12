@@ -1,0 +1,5 @@
+[0.394s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/messages -- -j2 -l2
+[0.437s] [0mCMake Error: The source directory "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages" does not exist.
+[0.437s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.440s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.444s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/messages -- -j2 -l2

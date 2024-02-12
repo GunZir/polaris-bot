@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/services
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/services
 
 # Utility rule file for services__py.
 
@@ -87,8 +87,8 @@ rosidl_generator_py/services/_services_s.ep.rosidl_typesupport_fastrtps_c.c: /op
 rosidl_generator_py/services/_services_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/services/_services_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/services/_services_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/services/srv/TestService.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/services__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ice/polaris-bot/ros2_ws/build/services/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/ice/polaris-bot/ros2_ws/build/services/services__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ice/polaris-bot/ros2_ws/build/services/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/services/_services_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/services/_services_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/services/_services_s.ep.rosidl_typesupport_introspection_c.c
@@ -120,10 +120,10 @@ services__py/CMakeFiles/services__py.dir/build: services__py
 .PHONY : services__py/CMakeFiles/services__py.dir/build
 
 services__py/CMakeFiles/services__py.dir/clean:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/services__py && $(CMAKE_COMMAND) -P CMakeFiles/services__py.dir/cmake_clean.cmake
+	cd /home/ice/polaris-bot/ros2_ws/build/services/services__py && $(CMAKE_COMMAND) -P CMakeFiles/services__py.dir/cmake_clean.cmake
 .PHONY : services__py/CMakeFiles/services__py.dir/clean
 
 services__py/CMakeFiles/services__py.dir/depend:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/services__py /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/services__py /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/services__py/CMakeFiles/services__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ice/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/polaris-bot/ros2_ws/src/services /home/ice/polaris-bot/ros2_ws/build/services/services__py /home/ice/polaris-bot/ros2_ws/build/services /home/ice/polaris-bot/ros2_ws/build/services/services__py /home/ice/polaris-bot/ros2_ws/build/services/services__py/CMakeFiles/services__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : services__py/CMakeFiles/services__py.dir/depend
 

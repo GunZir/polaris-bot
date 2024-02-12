@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/services
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/services
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ice/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/polaris-bot/ros2_ws/src/services /home/ice/polaris-bot/ros2_ws/src/services /home/ice/polaris-bot/ros2_ws/build/services /home/ice/polaris-bot/ros2_ws/build/services /home/ice/polaris-bot/ros2_ws/build/services/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

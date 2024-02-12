@@ -1,0 +1,148 @@
+[0.415s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/services -- -j2 -l2
+[0.675s] [  9%] Built target services__rosidl_generator_c
+[0.683s] [ 12%] Built target services__cpp
+[0.803s] [ 22%] Built target services__rosidl_typesupport_introspection_cpp
+[0.832s] [ 22%] Built target ament_cmake_python_copy_services
+[0.892s] [ 32%] Built target services__rosidl_typesupport_cpp
+[0.920s] [ 41%] Built target services__rosidl_typesupport_fastrtps_c
+[0.988s] [ 51%] Built target services__rosidl_typesupport_introspection_c
+[1.007s] [ 61%] Built target services__rosidl_typesupport_c
+[1.071s] [ 70%] Built target services__rosidl_typesupport_fastrtps_cpp
+[1.133s] [ 70%] Built target services
+[1.194s] [ 74%] Built target services__py
+[1.261s] [ 80%] Built target services__rosidl_generator_py
+[1.338s] [ 87%] Built target services__rosidl_typesupport_fastrtps_c__pyext
+[1.424s] [ 93%] Built target services__rosidl_typesupport_introspection_c__pyext
+[1.518s] [100%] Built target services__rosidl_typesupport_c__pyext
+[1.628s] running egg_info
+[1.636s] writing services.egg-info/PKG-INFO
+[1.638s] writing dependency_links to services.egg-info/dependency_links.txt
+[1.672s] writing top-level names to services.egg-info/top_level.txt
+[1.678s] reading manifest file 'services.egg-info/SOURCES.txt'
+[1.687s] writing manifest file 'services.egg-info/SOURCES.txt'
+[1.739s] [100%] Built target ament_cmake_python_build_services_egg
+[1.765s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/services' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/services -- -j2 -l2
+[2.065s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/services
+[2.101s] -- Install configuration: ""
+[2.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/rosidl_interfaces/services
+[2.104s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services
+[2.106s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv
+[2.107s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail
+[2.109s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__functions.c
+[2.109s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__functions.h
+[2.109s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__type_support.h
+[2.109s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__struct.h
+[2.109s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/test_service.h
+[2.109s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg
+[2.111s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_generator_c__visibility_control.h
+[2.111s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/library_path.sh
+[2.111s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/library_path.dsv
+[2.113s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_generator_c.so
+[2.114s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services
+[2.114s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv
+[2.114s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail
+[2.114s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_fastrtps_c.h
+[2.114s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg
+[2.114s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.116s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_fastrtps_c.so
+[2.117s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services
+[2.117s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv
+[2.117s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail
+[2.117s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_introspection_c.h
+[2.117s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__type_support.c
+[2.117s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg
+[2.117s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.120s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_introspection_c.so
+[2.122s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_c.so
+[2.123s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services
+[2.124s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv
+[2.124s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__struct.hpp
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__builder.hpp
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__traits.hpp
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/test_service.hpp
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/dds_fastrtps
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_fastrtps_cpp.hpp
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg
+[2.125s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.128s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_fastrtps_cpp.so
+[2.128s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services
+[2.128s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv
+[2.129s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail
+[2.129s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__type_support.cpp
+[2.129s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_introspection_cpp.hpp
+[2.131s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_introspection_cpp.so
+[2.135s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_cpp.so
+[2.135s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/pythonpath.sh
+[2.136s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/pythonpath.dsv
+[2.136s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info
+[2.136s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/top_level.txt
+[2.136s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/PKG-INFO
+[2.137s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.137s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.137s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services
+[2.138s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/_services_s.ep.rosidl_typesupport_introspection_c.c
+[2.138s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.139s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.139s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv/_test_service_s.c
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv/_test_service.py
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv/__init__.py
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/_services_s.ep.rosidl_typesupport_c.c
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/_services_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/__init__.py
+[2.140s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/libservices__rosidl_generator_py.so
+[2.232s] Listing '/home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services'...
+[2.232s] Listing '/home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv'...
+[2.241s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.244s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.247s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.249s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_generator_py.so
+[2.251s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService.idl
+[2.251s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService.srv
+[2.251s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService_Request.msg
+[2.251s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService_Response.msg
+[2.252s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/package_run_dependencies/services
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/parent_prefix_path/services
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/ament_prefix_path.sh
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/ament_prefix_path.dsv
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/path.sh
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/path.dsv
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.bash
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.sh
+[2.254s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.zsh
+[2.255s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.dsv
+[2.256s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/services/share/services/package.dsv
+[2.256s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/packages/services
+[2.271s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_cExport.cmake
+[2.271s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_cExport-noconfig.cmake
+[2.296s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cExport.cmake
+[2.297s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.301s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cExport.cmake
+[2.301s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.304s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cExport.cmake
+[2.306s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cExport-noconfig.cmake
+[2.309s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_cppExport.cmake
+[2.313s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.313s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.315s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cppExport.cmake
+[2.315s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.317s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cppExport.cmake
+[2.318s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cppExport-noconfig.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_pyExport.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_pyExport-noconfig.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/rosidl_cmake-extras.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_libraries-extras.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_targets-extras.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.321s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.322s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.322s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/servicesConfig.cmake
+[2.322s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/servicesConfig-version.cmake
+[2.322s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/package.xml
+[2.328s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/services' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/services

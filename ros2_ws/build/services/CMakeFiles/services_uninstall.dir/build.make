@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/services
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/services
 
 # Utility rule file for services_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/services_uninstall.dir/compiler_depend.make
 include CMakeFiles/services_uninstall.dir/progress.make
 
 CMakeFiles/services_uninstall:
-	/usr/bin/cmake -P /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ice/polaris-bot/ros2_ws/build/services/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 services_uninstall: CMakeFiles/services_uninstall
 services_uninstall: CMakeFiles/services_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/services_uninstall.dir/clean:
 .PHONY : CMakeFiles/services_uninstall.dir/clean
 
 CMakeFiles/services_uninstall.dir/depend:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/CMakeFiles/services_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ice/polaris-bot/ros2_ws/build/services && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/polaris-bot/ros2_ws/src/services /home/ice/polaris-bot/ros2_ws/src/services /home/ice/polaris-bot/ros2_ws/build/services /home/ice/polaris-bot/ros2_ws/build/services /home/ice/polaris-bot/ros2_ws/build/services/CMakeFiles/services_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/services_uninstall.dir/depend
 

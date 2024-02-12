@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/services
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/services
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/services
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/CMakeFiles /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ice/polaris-bot/ros2_ws/build/services/CMakeFiles /home/ice/polaris-bot/ros2_ws/build/services//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/services/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ice/polaris-bot/ros2_ws/build/services/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

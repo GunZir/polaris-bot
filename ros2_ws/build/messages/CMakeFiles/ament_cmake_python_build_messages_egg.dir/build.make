@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages
+CMAKE_SOURCE_DIR = /home/ice/polaris-bot/ros2_ws/src/messages
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages
+CMAKE_BINARY_DIR = /home/ice/polaris-bot/ros2_ws/build/messages
 
 # Utility rule file for ament_cmake_python_build_messages_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_messages_egg.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_build_messages_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_messages_egg:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/ament_cmake_python/messages && /usr/bin/python3.10 setup.py egg_info
+	cd /home/ice/polaris-bot/ros2_ws/build/messages/ament_cmake_python/messages && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_messages_egg: CMakeFiles/ament_cmake_python_build_messages_egg
 ament_cmake_python_build_messages_egg: CMakeFiles/ament_cmake_python_build_messages_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_messages_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_messages_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_messages_egg.dir/depend:
-	cd /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages /home/ice/Documents/GitHub/polaris-bot/ros2_ws/build/messages/CMakeFiles/ament_cmake_python_build_messages_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ice/polaris-bot/ros2_ws/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ice/polaris-bot/ros2_ws/src/messages /home/ice/polaris-bot/ros2_ws/src/messages /home/ice/polaris-bot/ros2_ws/build/messages /home/ice/polaris-bot/ros2_ws/build/messages /home/ice/polaris-bot/ros2_ws/build/messages/CMakeFiles/ament_cmake_python_build_messages_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_messages_egg.dir/depend
 

@@ -4,3 +4,5 @@ messages.egg-info/PKG-INFO
 messages.egg-info/SOURCES.txt
 messages.egg-info/dependency_links.txt
 messages.egg-info/top_level.txt
+messages/msg/__init__.py
+messages/msg/_robot_motor_speed.py
