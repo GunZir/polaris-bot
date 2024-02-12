@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/ament_index_cpp_utest.dir/test/utest.cpp.o -o ament_index_cpp_utest  -Wl,-rpath,/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_index_cpp gtest/libgtest_main.a gtest/libgtest.a libament_index_cpp.so -pthread 

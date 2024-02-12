@@ -1,8 +1,0 @@
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/uninstall.dir
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/ament_cmake_uncrustify_uninstall.dir
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/test.dir
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/edit_cache.dir
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/rebuild_cache.dir
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/list_install_components.dir
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/install.dir
-/home/ice/polaris-bot/ros2_ws/src/firmware/dev_ws/build/ament_cmake_uncrustify/CMakeFiles/install/local.dir
