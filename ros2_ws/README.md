@@ -178,6 +178,13 @@ ros2 run micro_ros_setup flash_firmware.sh
 ```
 
 ### Running the micro-ROS app
+First you have to remove brltty and add usergroup dialout and tty by this command.
+```
+sudo apt remove brltty -y
+sudo usermod -a -G dialout [your user name]
+sudo usermod -a -G tty [your user name]
+```
+Then restart your computer.
 
 At this point, you have both the client and the agent correctly installed in your host machine.
 
@@ -186,6 +193,10 @@ To give micro-ROS access to the ROS 2 dataspace, run the agent:
 ```plaintext
 ros2 run micro_ros_agent micro_ros_agent serial --dev [device]
 ```
+You can find your USB address by this command
+```
+ls /dev/tty*
+``` 
 
 example :
 
