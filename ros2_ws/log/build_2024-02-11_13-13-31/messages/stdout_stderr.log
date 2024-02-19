@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/ice/Documents/GitHub/polaris-bot/ros2_ws/src/messages" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:747: cmake_check_build_system] Error 1

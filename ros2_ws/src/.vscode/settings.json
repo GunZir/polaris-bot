@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "joint_state.h": "c"
+    }
+}

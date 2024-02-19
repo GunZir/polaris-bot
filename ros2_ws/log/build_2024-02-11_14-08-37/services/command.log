@@ -1,4 +1,0 @@
-Invoking command in '/home/ice/polaris-bot/ros2_ws/build/services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/services -- -j2 -l2
-Invoked command in '/home/ice/polaris-bot/ros2_ws/build/services' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/services -- -j2 -l2
-Invoking command in '/home/ice/polaris-bot/ros2_ws/build/services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/services
-Invoked command in '/home/ice/polaris-bot/ros2_ws/build/services' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ice/polaris_ws/install/test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/services

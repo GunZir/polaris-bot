@@ -1,1 +1,1 @@
-/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/my_message:/home/ice/polaris-bot/ros2_ws/install/messages:/opt/ros/humble
+/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/sam_bot_description:/home/ice/polaris-bot/ros2_ws/install/polaris_bot_description:/home/ice/polaris-bot/ros2_ws/install/my_message:/home/ice/polaris-bot/ros2_ws/install/messages:/opt/ros/humble

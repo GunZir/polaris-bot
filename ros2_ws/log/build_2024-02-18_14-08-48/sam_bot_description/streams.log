@@ -1,0 +1,32 @@
+[0.879s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/sam_bot_description -- -j2 -l2
+[1.062s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/sam_bot_description -- -j2 -l2
+[1.214s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/sam_bot_description
+[1.255s] -- Install configuration: ""
+[1.255s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/src
+[1.256s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/src/description
+[1.256s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[1.256s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/launch
+[1.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[1.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/rviz
+[1.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/rviz/urdf_config.rviz
+[1.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/config
+[1.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[1.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+[1.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/world
+[1.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[1.259s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[1.259s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[1.259s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[1.259s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[1.260s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[1.261s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[1.262s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[1.262s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[1.262s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[1.262s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[1.262s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+[1.262s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[1.263s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[1.271s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[1.276s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/sam_bot_description/share/sam_bot_description/package.xml
+[1.300s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/sam_bot_description
