@@ -1,2 +1,0 @@
-uint32 right_motor_speed
-uint32 left_motor_speed

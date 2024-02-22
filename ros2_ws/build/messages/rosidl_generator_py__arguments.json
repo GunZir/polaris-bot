@@ -3,7 +3,7 @@
   "output_dir": "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_py/messages",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages:msg/RobotMotorSpeed.idl"
+    "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages:msg/MotorRobotSpeed.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages/msg/RobotMotorSpeed.idl"
+    "/home/ice/polaris-bot/ros2_ws/build/messages/rosidl_adapter/messages/msg/MotorRobotSpeed.idl"
   ]
 }

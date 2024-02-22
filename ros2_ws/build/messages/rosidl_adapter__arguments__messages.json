@@ -1,6 +1,6 @@
 {
   "package_name": "messages",
   "non_idl_tuples": [
-    "/home/ice/polaris-bot/ros2_ws/src/messages:msg/RobotMotorSpeed.msg"
+    "/home/ice/polaris-bot/ros2_ws/src/messages:msg/MotorRobotSpeed.msg"
   ]
 }
