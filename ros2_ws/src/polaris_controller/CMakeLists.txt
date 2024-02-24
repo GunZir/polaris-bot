@@ -38,8 +38,8 @@ ament_target_dependencies(
   ${THIS_PACKAGE_INCLUDE_DEPENDS}
 )
 
-rclcpp_components_register_nodes(${PROJECT_NAME}
-  "polaris_controller::HardwareCommandPub")
+# rclcpp_components_register_nodes(${PROJECT_NAME}
+#   "polaris_controller::HardwareCommandPub")
 
 # Causes the visibility macros to use dllexport rather than dllimport,
 # which is appropriate when building the dll but not consuming it.

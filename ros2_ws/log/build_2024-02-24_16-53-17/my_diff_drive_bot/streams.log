@@ -1,0 +1,41 @@
+[0.351s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot -- -j2 -l2
+[0.485s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot -- -j2 -l2
+[0.781s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot
+[0.811s] -- Install configuration: ""
+[0.812s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config
+[0.813s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/view_bot.rivz.rviz
+[0.813s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/empty.yaml
+[0.813s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/drive_bot.rviz
+[0.813s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/my_controllers.yaml
+[0.813s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description
+[0.813s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/lidar.xacro
+[0.813s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/inertial_macros.xacro
+[0.814s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/gazebo_control.xacro
+[0.814s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/robot.urdf.xacro
+[0.815s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/ros2_control.xacro
+[0.815s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/robot_core.xacro
+[0.816s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch
+[0.817s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch/launch_robot.launch.py
+[0.817s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch/rsp.launch.py
+[0.817s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch/launch_sim.launch.py
+[0.818s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/worlds
+[0.818s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/worlds/empty.world
+[0.819s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/meshes
+[0.822s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/meshes/chassis_link.stl
+[0.822s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/meshes/caster_link.stl
+[0.822s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/ament_index/resource_index/package_run_dependencies/my_diff_drive_bot
+[0.822s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/ament_index/resource_index/parent_prefix_path/my_diff_drive_bot
+[0.822s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/ament_prefix_path.sh
+[0.823s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/ament_prefix_path.dsv
+[0.823s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/path.sh
+[0.824s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/path.dsv
+[0.825s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.bash
+[0.825s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.sh
+[0.834s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.zsh
+[0.836s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.dsv
+[0.836s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/package.dsv
+[0.853s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/ament_index/resource_index/packages/my_diff_drive_bot
+[0.853s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/cmake/my_diff_drive_botConfig.cmake
+[0.854s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/cmake/my_diff_drive_botConfig-version.cmake
+[0.856s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/package.xml
+[0.868s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot

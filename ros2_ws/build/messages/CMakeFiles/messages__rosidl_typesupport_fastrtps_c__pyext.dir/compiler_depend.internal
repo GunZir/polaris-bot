@@ -247,4 +247,7 @@ CMakeFiles/messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_p
  /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h
  /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_c/messages/msg/detail/motor_robot_speed__struct.h
  /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_c/messages/msg/detail/motor_robot_speed__functions.h
+ /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_c/messages/msg/detail/encoder_feed_back__type_support.h
+ /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_c/messages/msg/detail/encoder_feed_back__struct.h
+ /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_c/messages/msg/detail/encoder_feed_back__functions.h
 

@@ -67,6 +67,7 @@ include CMakeFiles/messages.dir/compiler_depend.make
 include CMakeFiles/messages.dir/progress.make
 
 CMakeFiles/messages: /home/ice/polaris-bot/ros2_ws/src/messages/msg/MotorRobotSpeed.msg
+CMakeFiles/messages: /home/ice/polaris-bot/ros2_ws/src/messages/msg/EncoderFeedBack.msg
 
 messages: CMakeFiles/messages
 messages: CMakeFiles/messages.dir/build.make

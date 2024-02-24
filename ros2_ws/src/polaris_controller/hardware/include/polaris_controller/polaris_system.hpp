@@ -31,30 +31,20 @@
 #include "polaris_controller/visibility_control.h"
 
 #include <messages/msg/motor_robot_speed.hpp>
+#include <messages/msg/encoder_feed_back.hpp>
 
 namespace polaris_controller
 {
 
-class HardwareCommandPub : public rclcpp::Node  //the node definition for the publisher to talk to micro-ROS agent
-{
-  public:
-    HardwareCommandPub();
-    void publishData(double x, double y);
-
-  private:
-    rclcpp::Publisher<messages::msg::MotorRobotSpeed>::SharedPtr publisher_;
-
-};
-
 class PolarisSystemHardware : public hardware_interface::SystemInterface
 {
 
-struct Config
-{
-  std::string left_wheel_name = "left_wheel";
-  std::string right_wheel_name = "right_wheel";
-  int enc_counts_per_rev = 1920;
-};
+// struct Config
+// {
+//   std::string left_wheel_name = "";
+//   std::string right_wheel_name = "";
+//   int enc_counts_per_rev = 0;
+// };
 
 public:
   RCLCPP_SHARED_PTR_DEFINITIONS(PolarisSystemHardware);
@@ -84,14 +74,21 @@ public:
   POLARIS_CONTROLLER_PUBLIC
   hardware_interface::return_type write(
     const rclcpp::Time & time, const rclcpp::Duration & period) override;
-  
-  std::shared_ptr<HardwareCommandPub> hw_cmd_pub_;    //make the publisher node a member
 
 private:
-  // Store the command for the simulated robot
+
   std::vector<double> hw_commands_;
   std::vector<double> hw_positions_;
   std::vector<double> hw_velocities_;
+
+  rclcpp::Subscription<messages::msg::EncoderFeedBack>::SharedPtr enc_feed_back_sub_;
+  rclcpp::Publisher<messages::msg::MotorRobotSpeed>::SharedPtr cmd_vel_pub_;
+  rclcpp::Node::SharedPtr node_;
+  messages::msg::EncoderFeedBack enc_feed_back_;
+
+  std::chrono::time_point<std::chrono::system_clock> time_;
+
+  double counts_per_rev_;
 
   // Config cfg_;
 

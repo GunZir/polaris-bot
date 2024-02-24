@@ -4,11 +4,9 @@
 #include <rcl/rcl.h>
 #include <rcl/error_handling.h>
 
-#include <std_msgs/msg/int32.h>
 #include <messages/msg/motor_robot_speed.h>
-#include <geometry_msgs/msg/twist.h>
+#include <messages/msg/encoder_feed_back.h>
 
-#include <sensor_msgs/msg/joint_state.h>
 
 #include "libs/e12Com.h"
 
@@ -23,16 +21,12 @@
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Aborting.\n",__LINE__,(int)temp_rc);vTaskDelete(NULL);}}
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Continuing.\n",__LINE__,(int)temp_rc);}}
 
-#define WHEEL_BASE 0.125
-// #define WHEEL_RADIUS 0.0625
-#define GAMMA  2994.6594
 
 rcl_publisher_t publisher;
 rcl_subscription_t subscriber;
 
-geometry_msgs__msg__Twist cmd_vel;
-messages__msg__MotorRobotSpeed encoder_msg;
-// sensor_msgs__msg__JointState joint_stat;
+messages__msg__EncoderFeedBack encoder;
+messages__msg__MotorRobotSpeed cmd_vel;
 
 typedef struct {
     double left;
@@ -46,24 +40,19 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time)
 	
 	RCLC_UNUSED(last_call_time);
 	if (timer != NULL) {
-		encoder_msg.right_motor_speed = dataSTM2ESP.encoderB;
-		encoder_msg.left_motor_speed = dataSTM2ESP.encoderA;
-		RCSOFTCHECK(rcl_publish(&publisher, &encoder_msg, NULL));
+		encoder.enc_right_wheel = dataSTM2ESP.encoderB;
+		encoder.enc_left_wheel = dataSTM2ESP.encoderA;
+		RCSOFTCHECK(rcl_publish(&publisher, &encoder, NULL));
 		
 	}
 }
 
 void subscription_callback(const void * msgin)
 {
-	const geometry_msgs__msg__Twist * msg = (const geometry_msgs__msg__Twist *)msgin;
+	const messages__msg__MotorRobotSpeed * command = (const messages__msg__MotorRobotSpeed *)msgin;
 
-	MotorPPS PPS;
-
-	PPS.left = -(msg->linear.x - msg->angular.z * WHEEL_BASE / 2.0) * GAMMA;  // pulse per sec
-    PPS.right = (msg->linear.x + msg->angular.z * WHEEL_BASE / 2.0) * GAMMA;
-
-	dataESP2STM.speedB = PPS.right;
-	dataESP2STM.speedA = PPS.left;
+	dataESP2STM.speedB = command->right_motor_speed;
+	dataESP2STM.speedA = command->left_motor_speed;
 	
 }
 
@@ -75,8 +64,8 @@ void appMain(void * arg)
 	dataESP2STM.kd = 0.0005;
 	dataESP2STM.powerOn = 1;
 
-	encoder_msg.right_motor_speed = dataSTM2ESP.encoderB;
-	encoder_msg.left_motor_speed = dataSTM2ESP.encoderA;
+	encoder.enc_right_wheel = dataSTM2ESP.encoderB;
+	encoder.enc_left_wheel = dataSTM2ESP.encoderA;
 
 	rcl_allocator_t allocator = rcl_get_default_allocator();
 	rclc_support_t support;
@@ -96,15 +85,15 @@ void appMain(void * arg)
 	RCCHECK(rclc_publisher_init_best_effort(
 		&publisher,
 		&node,
-		ROSIDL_GET_MSG_TYPE_SUPPORT(messages, msg, MotorRobotSpeed),
-		"/polaris/encoder"));
+		ROSIDL_GET_MSG_TYPE_SUPPORT(messages, msg, EncoderFeedBack),
+		"/esp32_uros/encoder_feed_back"));
     
 	// create subscriber
     RCCHECK(rclc_subscription_init_best_effort(
 		&subscriber,
 		&node,
-		ROSIDL_GET_MSG_TYPE_SUPPORT(geometry_msgs, msg, Twist),
-		"/diff_cont/cmd_vel_unstamped"));
+		ROSIDL_GET_MSG_TYPE_SUPPORT(messages, msg, MotorRobotSpeed),
+		"/esp32_uros/cmd_vel_to_uros"));
 
 	
 	// create timer,

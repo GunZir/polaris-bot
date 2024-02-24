@@ -704,6 +704,10 @@ CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o: /home/ice/polar
   /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__struct.hpp \
   /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__builder.hpp \
   /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__traits.hpp \
+  /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/encoder_feed_back.hpp \
+  /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__struct.hpp \
+  /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__builder.hpp \
+  /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__traits.hpp \
   /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
@@ -732,6 +736,8 @@ CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o: /home/ice/polar
 /usr/include/console_bridge_export.h:
 
 /usr/include/c++/11/cstddef:
+
+/home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/encoder_feed_back.hpp:
 
 /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__traits.hpp:
 
@@ -1537,6 +1543,8 @@ CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o: /home/ice/polar
 
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
+/home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__struct.hpp:
+
 /usr/include/c++/11/bits/stl_algobase.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
@@ -1915,6 +1923,8 @@ CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o: /home/ice/polar
 
 /opt/ros/humble/include/rcl/rcl/client.h:
 
+/home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__traits.hpp:
+
 /opt/ros/humble/include/rcl/rcl/service.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
@@ -2062,6 +2072,8 @@ CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o: /home/ice/polar
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+
+/home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__builder.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 

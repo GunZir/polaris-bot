@@ -705,6 +705,10 @@ CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o
  /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__struct.hpp
  /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__builder.hpp
  /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__traits.hpp
+ /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/encoder_feed_back.hpp
+ /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__struct.hpp
+ /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__builder.hpp
+ /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__traits.hpp
  /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp

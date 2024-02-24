@@ -5,4 +5,5 @@ messages.egg-info/SOURCES.txt
 messages.egg-info/dependency_links.txt
 messages.egg-info/top_level.txt
 messages/msg/__init__.py
+messages/msg/_encoder_feed_back.py
 messages/msg/_motor_robot_speed.py

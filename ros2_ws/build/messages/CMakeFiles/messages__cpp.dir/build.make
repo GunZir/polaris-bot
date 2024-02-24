@@ -70,6 +70,10 @@ CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/motor_robot_speed.hp
 CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__builder.hpp
 CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__struct.hpp
 CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__traits.hpp
+CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/encoder_feed_back.hpp
+CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__builder.hpp
+CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__struct.hpp
+CMakeFiles/messages__cpp: rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__traits.hpp
 
 rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp: /opt/ros/humble/share/r
 rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp: rosidl_adapter/messages/msg/MotorRobotSpeed.idl
+rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp: rosidl_adapter/messages/msg/EncoderFeedBack.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ice/polaris-bot/ros2_ws/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_cpp__arguments.json
 
@@ -99,10 +104,26 @@ rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__struct.hpp: rosidl_g
 rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__traits.hpp: rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__traits.hpp
 
+rosidl_generator_cpp/messages/msg/encoder_feed_back.hpp: rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/messages/msg/encoder_feed_back.hpp
+
+rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__builder.hpp: rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__builder.hpp
+
+rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__struct.hpp: rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__struct.hpp
+
+rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__traits.hpp: rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__traits.hpp
+
 messages__cpp: CMakeFiles/messages__cpp
+messages__cpp: rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__builder.hpp
+messages__cpp: rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__struct.hpp
+messages__cpp: rosidl_generator_cpp/messages/msg/detail/encoder_feed_back__traits.hpp
 messages__cpp: rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__builder.hpp
 messages__cpp: rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__struct.hpp
 messages__cpp: rosidl_generator_cpp/messages/msg/detail/motor_robot_speed__traits.hpp
+messages__cpp: rosidl_generator_cpp/messages/msg/encoder_feed_back.hpp
 messages__cpp: rosidl_generator_cpp/messages/msg/motor_robot_speed.hpp
 messages__cpp: CMakeFiles/messages__cpp.dir/build.make
 .PHONY : messages__cpp

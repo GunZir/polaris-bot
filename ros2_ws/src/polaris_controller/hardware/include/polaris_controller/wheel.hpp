@@ -2,6 +2,7 @@
 #define POLARIS_CONTROLLER_WHEEL_HPP
 
 #include <string>
+#include <math.h>
 
 
 
@@ -20,12 +21,22 @@ class Wheel
 
     Wheel() = default;
 
-    Wheel(const std::string &wheel_name, int counts_per_rev);
+    Wheel(const std::string &wheel_name, int counts_per_rev)
+    {
+        setup(wheel_name, counts_per_rev);
+    }
     
-    void setup(const std::string &wheel_name, int counts_per_rev);
+    void setup(const std::string &wheel_name, int counts_per_rev)
+    {
+        name = wheel_name;
+        rads_per_count = (2*M_PI)/counts_per_rev;
+    }
 
-    double calcEncAngle();
-
+    double calcEncAngle()
+    {
+        return enc * rads_per_count;
+    }
+        
 
 
 };

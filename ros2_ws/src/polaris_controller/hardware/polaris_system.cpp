@@ -26,23 +26,10 @@
 #include <rclcpp_components/register_node_macro.hpp>
 
 #include <messages/msg/motor_robot_speed.hpp>
+#include <messages/msg/encoder_feed_back.hpp>
 
 namespace polaris_controller
 {
-
-HardwareCommandPub::HardwareCommandPub() : Node("hardware_command_publisher")
-{
-  publisher_ = this->create_publisher<messages::msg::MotorRobotSpeed>("motor_speed", 10);
-}
-
-void HardwareCommandPub::publishData(double x, double y)
-{
-  auto message = messages::msg::MotorRobotSpeed();
-  message.right_motor_speed = x;
-  message.left_motor_speed = y;
-  publisher_->publish(message);
-}
-
 
 hardware_interface::CallbackReturn PolarisSystemHardware::on_init(
   const hardware_interface::HardwareInfo & info)
@@ -58,8 +45,6 @@ hardware_interface::CallbackReturn PolarisSystemHardware::on_init(
   hw_velocities_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   hw_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
 
-  hw_cmd_pub_ = std::make_shared<HardwareCommandPub>();  //fire up the publisher node
-
   // cfg_.left_wheel_name = info_.hardware_parameters["left_wheel_name"];
   // cfg_.right_wheel_name = info_.hardware_parameters["right_wheel_name"];
   // cfg_.enc_counts_per_rev = std::stoi(info_.hardware_parameters["enc_counts_per_rev"]);
@@ -68,6 +53,17 @@ hardware_interface::CallbackReturn PolarisSystemHardware::on_init(
   // left_wheel_.setup(cfg_.left_wheel_name, cfg_.enc_counts_per_rev);
   // right_wheel_.setup(cfg_.right_wheel_name, cfg_.enc_counts_per_rev);
 
+  node_ = rclcpp::Node::make_shared("hardware_interface");
+
+  cmd_vel_pub_ = node_->create_publisher<messages::msg::MotorRobotSpeed>(
+      "/esp32_uros/cmd_vel_to_uros", rclcpp::QoS(1));
+  enc_feed_back_sub_ = node_->create_subscription<messages::msg::EncoderFeedBack>(
+      "/esp32_uros/encoder_feed_back", rclcpp::SensorDataQoS(),
+      [this](const messages::msg::EncoderFeedBack::SharedPtr enc) { enc_feed_back_ = *enc; });
+
+  time_ = std::chrono::system_clock::now();
+
+  counts_per_rev_ = 1708;
 
   for (const hardware_interface::ComponentInfo & joint : info_.joints)
   {
@@ -155,12 +151,7 @@ std::vector<hardware_interface::CommandInterface> PolarisSystemHardware::export_
 hardware_interface::CallbackReturn PolarisSystemHardware::on_activate(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
-  // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("PolarisSystemHardware"), "Activating ...please wait...");
-
-  // END: This part here is for exemplary purposes - Please do not copy to your production code
-
-  // set some default values
 
 
   RCLCPP_INFO(rclcpp::get_logger("PolarisSystemHardware"), "Successfully activated!");
@@ -186,7 +177,23 @@ hardware_interface::return_type PolarisSystemHardware::read(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
 {
   RCLCPP_INFO(rclcpp::get_logger("PolarisSystemHardware"), "Reading ...");
+  if (rclcpp::ok())
+  {
+    rclcpp::spin_some(node_);
+  }
 
+  auto new_time = std::chrono::system_clock::now();
+  std::chrono::duration<double> diff = new_time - time_;
+  double deltaSeconds = diff.count();
+  time_ = new_time;
+
+  double pos_prev = hw_positions_[0];
+  hw_positions_[0] = 2 * M_PI / counts_per_rev_;
+  hw_velocities_[0] = (hw_positions_[0] - pos_prev) / deltaSeconds;
+
+  pos_prev = hw_positions_[1];
+  hw_positions_[1] = 2 * M_PI / counts_per_rev_;
+  hw_velocities_[1] = (hw_positions_[1] - pos_prev) / deltaSeconds;
 
   return hardware_interface::return_type::OK;
 }
@@ -196,16 +203,10 @@ hardware_interface::return_type polaris_controller ::PolarisSystemHardware::writ
 {
   RCLCPP_INFO(rclcpp::get_logger("PolarisSystemHardware"), "Writing...");
 
-  hw_cmd_pub_->publishData(hw_commands_[0], hw_commands_[1]);  //publish to topic
-  for (auto i = 0u; i < hw_commands_.size(); i++)
-  {
-    // Simulate sending commands to the hardware
-    RCLCPP_INFO(
-      rclcpp::get_logger("PolarisSystemHardware"), "Got command %.5f for '%s'!", hw_commands_[i],
-      info_.joints[i].name.c_str());
-
-    hw_velocities_[i] = hw_commands_[i];
-  }
+  auto command = messages::msg::MotorRobotSpeed();
+  command.left_motor_speed = hw_commands_[0] / (2 * M_PI) * counts_per_rev_;
+  command.right_motor_speed = hw_commands_[1] / (2 * M_PI) * counts_per_rev_; 
+  cmd_vel_pub_->publish(command);
 
   RCLCPP_INFO(rclcpp::get_logger("PolarisSystemHardware"), "Joints successfully written!");
 

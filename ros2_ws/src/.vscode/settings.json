@@ -79,6 +79,7 @@
         "regex": "cpp",
         "valarray": "cpp",
         "ranges": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "netfwd": "cpp"
     }
 }
