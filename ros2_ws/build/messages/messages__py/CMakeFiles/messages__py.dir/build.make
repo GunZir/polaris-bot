@@ -69,9 +69,11 @@ include messages__py/CMakeFiles/messages__py.dir/progress.make
 messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
 messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c
-messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_robot_motor_speed.py
+messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_motor_robot_speed.py
+messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_encoder_feed_back.py
 messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/__init__.py
-messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_robot_motor_speed_s.c
+messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_motor_robot_speed_s.c
+messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_encoder_feed_back_s.c
 
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -86,7 +88,8 @@ rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /op
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/messages/msg/RobotMotorSpeed.idl
+rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/messages/msg/MotorRobotSpeed.idl
+rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/messages/msg/EncoderFeedBack.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ice/polaris-bot/ros2_ws/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/ice/polaris-bot/ros2_ws/build/messages/messages__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ice/polaris-bot/ros2_ws/build/messages/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -96,22 +99,30 @@ rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/messages/msg/_robot_motor_speed.py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/_robot_motor_speed.py
+rosidl_generator_py/messages/msg/_motor_robot_speed.py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/_motor_robot_speed.py
+
+rosidl_generator_py/messages/msg/_encoder_feed_back.py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/_encoder_feed_back.py
 
 rosidl_generator_py/messages/msg/__init__.py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/__init__.py
 
-rosidl_generator_py/messages/msg/_robot_motor_speed_s.c: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/_robot_motor_speed_s.c
+rosidl_generator_py/messages/msg/_motor_robot_speed_s.c: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/_motor_robot_speed_s.c
+
+rosidl_generator_py/messages/msg/_encoder_feed_back_s.c: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/_encoder_feed_back_s.c
 
 messages__py: messages__py/CMakeFiles/messages__py
 messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c
 messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
 messages__py: rosidl_generator_py/messages/msg/__init__.py
-messages__py: rosidl_generator_py/messages/msg/_robot_motor_speed.py
-messages__py: rosidl_generator_py/messages/msg/_robot_motor_speed_s.c
+messages__py: rosidl_generator_py/messages/msg/_encoder_feed_back.py
+messages__py: rosidl_generator_py/messages/msg/_encoder_feed_back_s.c
+messages__py: rosidl_generator_py/messages/msg/_motor_robot_speed.py
+messages__py: rosidl_generator_py/messages/msg/_motor_robot_speed_s.c
 messages__py: messages__py/CMakeFiles/messages__py.dir/build.make
 .PHONY : messages__py
 

@@ -1,0 +1,670 @@
+[0.000000] (-) TimerEvent: {}
+[0.009089] (messages) JobQueued: {'identifier': 'messages', 'dependencies': OrderedDict()}
+[0.009387] (my_diff_drive_bot) JobQueued: {'identifier': 'my_diff_drive_bot', 'dependencies': OrderedDict()}
+[0.009461] (ros2_control_demo_description) JobQueued: {'identifier': 'ros2_control_demo_description', 'dependencies': OrderedDict()}
+[0.009511] (services) JobQueued: {'identifier': 'services', 'dependencies': OrderedDict()}
+[0.009567] (polaris_controller) JobQueued: {'identifier': 'polaris_controller', 'dependencies': OrderedDict([('messages', '/home/ice/polaris-bot/ros2_ws/install/messages'), ('ros2_control_demo_description', '/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description')])}
+[0.009647] (messages) JobStarted: {'identifier': 'messages'}
+[0.107829] (-) TimerEvent: {}
+[0.214571] (-) TimerEvent: {}
+[0.319256] (-) TimerEvent: {}
+[0.351153] (ros2_control_demo_description) JobStarted: {'identifier': 'ros2_control_demo_description'}
+[0.423243] (-) TimerEvent: {}
+[0.595760] (-) TimerEvent: {}
+[0.622714] (messages) JobProgress: {'identifier': 'messages', 'progress': 'cmake'}
+[0.637232] (messages) JobProgress: {'identifier': 'messages', 'progress': 'build'}
+[0.639113] (messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ice/polaris-bot/ros2_ws/build/messages', '--', '-j2', '-l2'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.697576] (-) TimerEvent: {}
+[0.713349] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'cmake'}
+[0.780905] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'build'}
+[0.783701] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ice/polaris-bot/ros2_ws/build/ros2_control_demo_description', '--', '-j2', '-l2'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/ros2_control_demo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/ros2_control_demo_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.798950] (-) TimerEvent: {}
+[0.901019] (-) TimerEvent: {}
+[0.998789] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_generator_c\x1b[0m\n'}
+[1.004017] (-) TimerEvent: {}
+[1.093411] (messages) StdoutLine: {'line': b'[  9%] Built target messages__rosidl_generator_c\n'}
+[1.112845] (-) TimerEvent: {}
+[1.214113] (-) TimerEvent: {}
+[1.275392] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[1.318320] (-) TimerEvent: {}
+[1.351709] (messages) StdoutLine: {'line': b'[ 12%] Built target messages__cpp\n'}
+[1.421035] (-) TimerEvent: {}
+[1.528524] (-) TimerEvent: {}
+[1.638489] (-) TimerEvent: {}
+[1.663444] (messages) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_messages\n'}
+[1.749024] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'install'}
+[1.749120] (-) TimerEvent: {}
+[1.778093] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.799787] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ice/polaris-bot/ros2_ws/build/ros2_control_demo_description'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/ros2_control_demo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/ros2_control_demo_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.849497] (-) TimerEvent: {}
+[1.961284] (-) TimerEvent: {}
+[1.965643] (ros2_control_demo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.966105] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf\n'}
+[1.969681] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro\n'}
+[1.979378] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro\n'}
+[1.979878] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz\n'}
+[1.980187] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz\n'}
+[1.980466] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf\n'}
+[1.980715] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro\n'}
+[1.980986] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro\n'}
+[1.981110] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz\n'}
+[1.981215] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz\n'}
+[1.981320] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz\n'}
+[1.981428] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf\n'}
+[1.986506] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro\n'}
+[1.986927] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro\n'}
+[1.987988] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz\n'}
+[1.988219] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz\n'}
+[1.989362] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz\n'}
+[1.992989] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes\n'}
+[1.993317] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual\n'}
+[1.994930] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae\n'}
+[1.997063] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae\n'}
+[2.001856] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae\n'}
+[2.002119] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae\n'}
+[2.002630] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae\n'}
+[2.003552] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae\n'}
+[2.003789] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae\n'}
+[2.004887] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision\n'}
+[2.006159] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl\n'}
+[2.007942] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl\n'}
+[2.008104] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl\n'}
+[2.009049] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl\n'}
+[2.009224] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl\n'}
+[2.009369] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl\n'}
+[2.010439] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl\n'}
+[2.011011] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf\n'}
+[2.011153] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf\n'}
+[2.011860] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf\n'}
+[2.012503] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc\n'}
+[2.012799] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro\n'}
+[2.013032] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro\n'}
+[2.013308] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz\n'}
+[2.013526] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz\n'}
+[2.013738] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description\n'}
+[2.013950] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description\n'}
+[2.022201] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh\n'}
+[2.022498] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv\n'}
+[2.025174] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh\n'}
+[2.025443] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv\n'}
+[2.025700] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash\n'}
+[2.025957] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh\n'}
+[2.028507] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh\n'}
+[2.028765] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv\n'}
+[2.028999] (ros2_control_demo_description) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv\n'}
+[2.044663] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description\n'}
+[2.045220] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake\n'}
+[2.045547] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake\n'}
+[2.045900] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml\n'}
+[2.074466] (-) TimerEvent: {}
+[2.094626] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[2.175122] (-) TimerEvent: {}
+[2.203288] (messages) StdoutLine: {'line': b'[ 22%] Built target messages__rosidl_typesupport_fastrtps_c\n'}
+[2.280864] (-) TimerEvent: {}
+[2.355134] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.401611] (-) TimerEvent: {}
+[2.461753] (messages) StdoutLine: {'line': b'[ 32%] Built target messages__rosidl_typesupport_introspection_c\n'}
+[2.534759] (-) TimerEvent: {}
+[2.616353] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_c\x1b[0m\n'}
+[2.636592] (-) TimerEvent: {}
+[2.694880] (messages) StdoutLine: {'line': b'[ 41%] Built target messages__rosidl_typesupport_c\n'}
+[2.766559] (-) TimerEvent: {}
+[2.855381] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.875924] (-) TimerEvent: {}
+[2.950479] (messages) StdoutLine: {'line': b'[ 51%] Built target messages__rosidl_typesupport_fastrtps_cpp\n'}
+[2.976491] (-) TimerEvent: {}
+[3.078701] (-) TimerEvent: {}
+[3.079316] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.200017] (-) TimerEvent: {}
+[3.205647] (messages) StdoutLine: {'line': b'[ 61%] Built target messages__rosidl_typesupport_introspection_cpp\n'}
+[3.323180] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.323566] (-) TimerEvent: {}
+[3.496400] (-) TimerEvent: {}
+[3.498007] (messages) StdoutLine: {'line': b'[ 70%] Built target messages__rosidl_typesupport_cpp\n'}
+[3.599944] (-) TimerEvent: {}
+[3.702733] (-) TimerEvent: {}
+[3.817478] (-) TimerEvent: {}
+[3.826791] (ros2_control_demo_description) JobEnded: {'identifier': 'ros2_control_demo_description', 'rc': 0}
+[3.828500] (my_diff_drive_bot) JobStarted: {'identifier': 'my_diff_drive_bot'}
+[3.917961] (-) TimerEvent: {}
+[4.020750] (-) TimerEvent: {}
+[4.122913] (-) TimerEvent: {}
+[4.225765] (-) TimerEvent: {}
+[4.332561] (-) TimerEvent: {}
+[4.373094] (my_diff_drive_bot) JobProgress: {'identifier': 'my_diff_drive_bot', 'progress': 'cmake'}
+[4.409559] (my_diff_drive_bot) JobProgress: {'identifier': 'my_diff_drive_bot', 'progress': 'build'}
+[4.410253] (my_diff_drive_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot', '--', '-j2', '-l2'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.435809] (-) TimerEvent: {}
+[4.540209] (-) TimerEvent: {}
+[4.643369] (-) TimerEvent: {}
+[4.757524] (-) TimerEvent: {}
+[4.810663] (my_diff_drive_bot) CommandEnded: {'returncode': 0}
+[4.858719] (-) TimerEvent: {}
+[4.978069] (-) TimerEvent: {}
+[5.119612] (-) TimerEvent: {}
+[5.226606] (-) TimerEvent: {}
+[5.328238] (-) TimerEvent: {}
+[5.358209] (my_diff_drive_bot) JobProgress: {'identifier': 'my_diff_drive_bot', 'progress': 'install'}
+[5.368107] (my_diff_drive_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.428362] (my_diff_drive_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.429549] (-) TimerEvent: {}
+[5.433723] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config\n'}
+[5.434539] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/view_bot.rivz.rviz\n'}
+[5.435063] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/empty.yaml\n'}
+[5.441632] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/drive_bot.rviz\n'}
+[5.442155] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/config/my_controllers.yaml\n'}
+[5.442402] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description\n'}
+[5.442637] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/lidar.xacro\n'}
+[5.442959] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/inertial_macros.xacro\n'}
+[5.443210] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/gazebo_control.xacro\n'}
+[5.443458] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/robot.urdf.xacro\n'}
+[5.443744] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/ros2_control.xacro\n'}
+[5.444011] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/description/robot_core.xacro\n'}
+[5.444272] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch\n'}
+[5.444547] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch/launch_robot.launch.py\n'}
+[5.444874] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch/rsp.launch.py\n'}
+[5.445126] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/launch/launch_sim.launch.py\n'}
+[5.445405] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/worlds\n'}
+[5.445700] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/worlds/empty.world\n'}
+[5.445988] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/meshes\n'}
+[5.446264] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/meshes/chassis_link.stl\n'}
+[5.446538] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/meshes/caster_link.stl\n'}
+[5.446879] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/ament_index/resource_index/package_run_dependencies/my_diff_drive_bot\n'}
+[5.447171] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/ament_index/resource_index/parent_prefix_path/my_diff_drive_bot\n'}
+[5.447446] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/ament_prefix_path.sh\n'}
+[5.556522] (-) TimerEvent: {}
+[5.558251] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/ament_prefix_path.dsv\n'}
+[5.560182] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/path.sh\n'}
+[5.560627] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/environment/path.dsv\n'}
+[5.560905] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.bash\n'}
+[5.561052] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.sh\n'}
+[5.561186] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.zsh\n'}
+[5.561482] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/local_setup.dsv\n'}
+[5.561845] (my_diff_drive_bot) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/package.dsv\n'}
+[5.562006] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/ament_index/resource_index/packages/my_diff_drive_bot\n'}
+[5.562134] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/cmake/my_diff_drive_botConfig.cmake\n'}
+[5.562306] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/cmake/my_diff_drive_botConfig-version.cmake\n'}
+[5.562533] (my_diff_drive_bot) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot/share/my_diff_drive_bot/package.xml\n'}
+[5.562708] (my_diff_drive_bot) CommandEnded: {'returncode': 0}
+[5.732030] (messages) StdoutLine: {'line': b'running egg_info\n'}
+[5.732459] (-) TimerEvent: {}
+[5.766735] (messages) StdoutLine: {'line': b'writing messages.egg-info/PKG-INFO\n'}
+[5.767164] (messages) StdoutLine: {'line': b'writing dependency_links to messages.egg-info/dependency_links.txt\n'}
+[5.767385] (messages) StdoutLine: {'line': b'writing top-level names to messages.egg-info/top_level.txt\n'}
+[5.797415] (messages) StdoutLine: {'line': b"reading manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[5.834931] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[5.835582] (-) TimerEvent: {}
+[5.939020] (-) TimerEvent: {}
+[6.041673] (-) TimerEvent: {}
+[6.177650] (messages) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_messages_egg\n'}
+[6.177993] (-) TimerEvent: {}
+[6.272009] (messages) StdoutLine: {'line': b'[ 70%] Built target messages\n'}
+[6.305706] (-) TimerEvent: {}
+[6.352609] (messages) StdoutLine: {'line': b'[ 74%] Built target messages__py\n'}
+[6.414742] (-) TimerEvent: {}
+[6.421672] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_generator_py\x1b[0m\n'}
+[6.541056] (-) TimerEvent: {}
+[6.568413] (messages) StdoutLine: {'line': b'[ 80%] Built target messages__rosidl_generator_py\n'}
+[6.592412] (my_diff_drive_bot) JobEnded: {'identifier': 'my_diff_drive_bot', 'rc': 0}
+[6.659583] (-) TimerEvent: {}
+[6.660974] (services) JobStarted: {'identifier': 'services'}
+[6.663488] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.777103] (-) TimerEvent: {}
+[6.779566] (messages) StdoutLine: {'line': b'[ 87%] Built target messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.877315] (services) JobProgress: {'identifier': 'services', 'progress': 'cmake'}
+[6.877501] (-) TimerEvent: {}
+[6.877659] (services) JobProgress: {'identifier': 'services', 'progress': 'build'}
+[6.889842] (services) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ice/polaris-bot/ros2_ws/build/services', '--', '-j2', '-l2'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/services', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/services'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.892416] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.992279] (-) TimerEvent: {}
+[6.992682] (messages) StdoutLine: {'line': b'[ 93%] Built target messages__rosidl_typesupport_introspection_c__pyext\n'}
+[7.041943] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.103422] (-) TimerEvent: {}
+[7.111404] (messages) StdoutLine: {'line': b'[100%] Built target messages__rosidl_typesupport_c__pyext\n'}
+[7.210919] (messages) CommandEnded: {'returncode': 0}
+[7.212647] (-) TimerEvent: {}
+[7.313661] (-) TimerEvent: {}
+[7.374934] (services) StdoutLine: {'line': b'[  3%] Built target services__cpp\n'}
+[7.428924] (-) TimerEvent: {}
+[7.495539] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_generator_c\x1b[0m\n'}
+[7.529624] (-) TimerEvent: {}
+[7.586515] (services) StdoutLine: {'line': b'[ 12%] Built target services__rosidl_generator_c\n'}
+[7.636751] (-) TimerEvent: {}
+[7.695823] (services) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_services\n'}
+[7.737388] (-) TimerEvent: {}
+[7.878869] (-) TimerEvent: {}
+[7.887351] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.979620] (-) TimerEvent: {}
+[8.000698] (messages) JobProgress: {'identifier': 'messages', 'progress': 'install'}
+[8.000970] (messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ice/polaris-bot/ros2_ws/build/messages'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.054910] (messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.055253] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages\n'}
+[8.058450] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages\n'}
+[8.060713] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg\n'}
+[8.060840] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail\n'}
+[8.060920] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__functions.h\n'}
+[8.061013] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__type_support.h\n'}
+[8.061119] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__struct.h\n'}
+[8.061218] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__functions.c\n'}
+[8.061791] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/motor_robot_speed.h\n'}
+[8.061983] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.062087] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/library_path.sh\n'}
+[8.062193] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/library_path.dsv\n'}
+[8.062289] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_generator_c.so\n'}
+[8.073292] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages\n'}
+[8.089318] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg\n'}
+[8.089668] (-) TimerEvent: {}
+[8.093998] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail\n'}
+[8.096431] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_fastrtps_c.h\n'}
+[8.097132] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.097487] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so\n'}
+[8.097759] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages\n'}
+[8.109027] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg\n'}
+[8.109246] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail\n'}
+[8.112301] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_introspection_c.h\n'}
+[8.112543] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__type_support.c\n'}
+[8.113402] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.113594] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so\n'}
+[8.113864] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_c.so\n'}
+[8.114038] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages\n'}
+[8.150172] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg\n'}
+[8.153205] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail\n'}
+[8.159576] (services) StdoutLine: {'line': b'[ 22%] Built target services__rosidl_typesupport_cpp\n'}
+[8.160663] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__traits.hpp\n'}
+[8.161076] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__struct.hpp\n'}
+[8.161308] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__builder.hpp\n'}
+[8.161465] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/motor_robot_speed.hpp\n'}
+[8.162321] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages\n'}
+[8.177211] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg\n'}
+[8.179457] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail\n'}
+[8.181705] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/dds_fastrtps\n'}
+[8.182182] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.182684] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.182788] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.182948] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages\n'}
+[8.191634] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg\n'}
+[8.192001] (-) TimerEvent: {}
+[8.192885] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail\n'}
+[8.193484] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.193697] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__type_support.cpp\n'}
+[8.193929] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so\n'}
+[8.194136] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_cpp.so\n'}
+[8.199888] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/pythonpath.sh\n'}
+[8.200864] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/pythonpath.dsv\n'}
+[8.200966] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info\n'}
+[8.201041] (messages) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.201133] (messages) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.201204] (messages) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.201271] (messages) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.201339] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages\n'}
+[8.201406] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.201473] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.201932] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.204216] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.204338] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.204442] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg\n'}
+[8.204567] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/_motor_robot_speed.py\n'}
+[8.204740] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/__init__.py\n'}
+[8.204838] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/_motor_robot_speed_s.c\n'}
+[8.204910] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/libmessages__rosidl_generator_py.so\n'}
+[8.204978] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py\n'}
+[8.205045] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_c.c\n'}
+[8.301718] (-) TimerEvent: {}
+[8.334043] (messages) StdoutLine: {'line': b"Listing '/home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages'...\n"}
+[8.334475] (messages) StdoutLine: {'line': b"Listing '/home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg'...\n"}
+[8.363576] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.372741] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.372999] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.373131] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.373249] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_generator_py.so\n'}
+[8.373358] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/msg/MotorRobotSpeed.idl\n'}
+[8.373468] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/msg/MotorRobotSpeed.msg\n'}
+[8.373576] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/package_run_dependencies/messages\n'}
+[8.374331] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/parent_prefix_path/messages\n'}
+[8.381343] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/ament_prefix_path.sh\n'}
+[8.382140] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/ament_prefix_path.dsv\n'}
+[8.383194] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/path.sh\n'}
+[8.383860] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/path.dsv\n'}
+[8.386285] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.bash\n'}
+[8.386946] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.sh\n'}
+[8.387375] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.zsh\n'}
+[8.387751] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.dsv\n'}
+[8.388168] (messages) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/package.dsv\n'}
+[8.388865] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/packages/messages\n'}
+[8.389491] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake\n'}
+[8.389930] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.390415] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.390782] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.391333] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.391718] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.392731] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake\n'}
+[8.393988] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.394776] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake\n'}
+[8.396507] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.396980] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.397516] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.397886] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.398734] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake\n'}
+[8.399243] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.399774] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake\n'}
+[8.400488] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.401386] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake\n'}
+[8.408718] (-) TimerEvent: {}
+[8.464999] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.465437] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.466049] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.467100] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.468071] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.469647] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.489937] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messagesConfig.cmake\n'}
+[8.490172] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messagesConfig-version.cmake\n'}
+[8.490300] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/package.xml\n'}
+[8.490449] (messages) CommandEnded: {'returncode': 0}
+[8.534315] (services) StdoutLine: {'line': b'[ 32%] Built target services__rosidl_typesupport_fastrtps_c\n'}
+[8.535130] (-) TimerEvent: {}
+[8.627489] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.635602] (-) TimerEvent: {}
+[8.765031] (services) StdoutLine: {'line': b'[ 41%] Built target services__rosidl_typesupport_introspection_c\n'}
+[8.765419] (-) TimerEvent: {}
+[8.969615] (-) TimerEvent: {}
+[8.980757] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_c\x1b[0m\n'}
+[9.029062] (services) StdoutLine: {'line': b'[ 51%] Built target services__rosidl_typesupport_c\n'}
+[9.128669] (-) TimerEvent: {}
+[9.231035] (-) TimerEvent: {}
+[9.265257] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.338452] (-) TimerEvent: {}
+[9.445867] (-) TimerEvent: {}
+[9.482528] (services) StdoutLine: {'line': b'[ 61%] Built target services__rosidl_typesupport_fastrtps_cpp\n'}
+[9.589805] (-) TimerEvent: {}
+[9.625096] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.724062] (services) StdoutLine: {'line': b'[ 70%] Built target services__rosidl_typesupport_introspection_cpp\n'}
+[9.749136] (-) TimerEvent: {}
+[9.857242] (-) TimerEvent: {}
+[10.049882] (-) TimerEvent: {}
+[10.154702] (-) TimerEvent: {}
+[10.185049] (messages) JobEnded: {'identifier': 'messages', 'rc': 0}
+[10.196094] (polaris_controller) JobStarted: {'identifier': 'polaris_controller'}
+[10.365444] (-) TimerEvent: {}
+[10.525549] (-) TimerEvent: {}
+[10.785796] (-) TimerEvent: {}
+[10.786418] (services) StdoutLine: {'line': b'running egg_info\n'}
+[10.786636] (services) StdoutLine: {'line': b'writing services.egg-info/PKG-INFO\n'}
+[10.835507] (services) StdoutLine: {'line': b'writing dependency_links to services.egg-info/dependency_links.txt\n'}
+[10.835736] (services) StdoutLine: {'line': b'writing top-level names to services.egg-info/top_level.txt\n'}
+[10.837353] (services) StdoutLine: {'line': b"reading manifest file 'services.egg-info/SOURCES.txt'\n"}
+[10.847734] (services) StdoutLine: {'line': b"writing manifest file 'services.egg-info/SOURCES.txt'\n"}
+[10.863932] (polaris_controller) JobProgress: {'identifier': 'polaris_controller', 'progress': 'cmake'}
+[10.869378] (polaris_controller) JobProgress: {'identifier': 'polaris_controller', 'progress': 'build'}
+[10.871050] (polaris_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ice/polaris-bot/ros2_ws/build/polaris_controller', '--', '-j2', '-l2'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/polaris_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ice/polaris-bot/ros2_ws/install/messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/polaris_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/opt/ros/humble')]), 'shell': False}
+[10.885953] (-) TimerEvent: {}
+[10.995279] (-) TimerEvent: {}
+[11.105760] (-) TimerEvent: {}
+[11.151209] (services) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_services_egg\n'}
+[11.206261] (-) TimerEvent: {}
+[11.252315] (polaris_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target polaris_controller\x1b[0m\n'}
+[11.318624] (-) TimerEvent: {}
+[11.348918] (polaris_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o\x1b[0m\n'}
+[11.425877] (-) TimerEvent: {}
+[11.445875] (services) StdoutLine: {'line': b'[ 70%] Built target services\n'}
+[11.541106] (-) TimerEvent: {}
+[11.643879] (services) StdoutLine: {'line': b'[ 74%] Built target services__py\n'}
+[11.644268] (-) TimerEvent: {}
+[11.750571] (-) TimerEvent: {}
+[11.761437] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_generator_py\x1b[0m\n'}
+[11.853076] (-) TimerEvent: {}
+[11.860866] (services) StdoutLine: {'line': b'[ 80%] Built target services__rosidl_generator_py\n'}
+[12.529802] (-) TimerEvent: {}
+[12.575904] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.637330] (-) TimerEvent: {}
+[12.687569] (services) StdoutLine: {'line': b'[ 87%] Built target services__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.742703] (-) TimerEvent: {}
+[12.820946] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.859561] (-) TimerEvent: {}
+[12.961066] (services) StdoutLine: {'line': b'[ 93%] Built target services__rosidl_typesupport_introspection_c__pyext\n'}
+[12.961711] (-) TimerEvent: {}
+[13.064882] (-) TimerEvent: {}
+[13.066028] (services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target services__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.137353] (services) StdoutLine: {'line': b'[100%] Built target services__rosidl_typesupport_c__pyext\n'}
+[13.168062] (-) TimerEvent: {}
+[13.304027] (services) CommandEnded: {'returncode': 0}
+[13.316670] (-) TimerEvent: {}
+[13.422797] (-) TimerEvent: {}
+[13.525713] (-) TimerEvent: {}
+[13.626894] (-) TimerEvent: {}
+[13.736369] (-) TimerEvent: {}
+[13.841318] (-) TimerEvent: {}
+[13.949851] (-) TimerEvent: {}
+[14.053524] (-) TimerEvent: {}
+[14.218684] (-) TimerEvent: {}
+[14.242801] (services) JobProgress: {'identifier': 'services', 'progress': 'install'}
+[14.248146] (services) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ice/polaris-bot/ros2_ws/build/services'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/services', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1869,unix/polaris:/tmp/.ICE-unix/1869'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0441c70f_3898_4f25_aae1_86ed4fca26aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X3FGJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.802'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/services'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.281856] (services) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.305119] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/rosidl_interfaces/services\n'}
+[14.305424] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services\n'}
+[14.316378] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv\n'}
+[14.319942] (-) TimerEvent: {}
+[14.384004] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail\n'}
+[14.387545] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__functions.c\n'}
+[14.387980] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__functions.h\n'}
+[14.388684] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__type_support.h\n'}
+[14.388788] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__struct.h\n'}
+[14.388880] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/test_service.h\n'}
+[14.388999] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg\n'}
+[14.389091] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.389260] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/library_path.sh\n'}
+[14.389964] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/library_path.dsv\n'}
+[14.390104] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_generator_c.so\n'}
+[14.398401] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services\n'}
+[14.398753] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv\n'}
+[14.399126] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail\n'}
+[14.399358] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_fastrtps_c.h\n'}
+[14.409901] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg\n'}
+[14.411428] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.411854] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_fastrtps_c.so\n'}
+[14.413796] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services\n'}
+[14.414192] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv\n'}
+[14.416424] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail\n'}
+[14.416555] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_introspection_c.h\n'}
+[14.416677] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__type_support.c\n'}
+[14.417212] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg\n'}
+[14.417392] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.417471] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_introspection_c.so\n'}
+[14.417571] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_c.so\n'}
+[14.417683] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services\n'}
+[14.417765] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv\n'}
+[14.418610] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail\n'}
+[14.420803] (-) TimerEvent: {}
+[14.421082] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__struct.hpp\n'}
+[14.425295] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__builder.hpp\n'}
+[14.425741] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__traits.hpp\n'}
+[14.425830] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/test_service.hpp\n'}
+[14.425904] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services\n'}
+[14.425973] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv\n'}
+[14.426041] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail\n'}
+[14.426108] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/dds_fastrtps\n'}
+[14.426175] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.426253] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg\n'}
+[14.426322] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.426445] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.426515] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services\n'}
+[14.426583] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv\n'}
+[14.426651] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail\n'}
+[14.426717] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__type_support.cpp\n'}
+[14.426784] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/include/services/services/srv/detail/test_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.426851] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_introspection_cpp.so\n'}
+[14.426917] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_typesupport_cpp.so\n'}
+[14.426993] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/pythonpath.sh\n'}
+[14.427069] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/pythonpath.dsv\n'}
+[14.427137] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info\n'}
+[14.427204] (services) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.427271] (services) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.427498] (services) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.427588] (services) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.427667] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services\n'}
+[14.427830] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/_services_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.427993] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.428147] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.428416] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv\n'}
+[14.428684] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv/_test_service_s.c\n'}
+[14.428909] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv/_test_service.py\n'}
+[14.429166] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv/__init__.py\n'}
+[14.429755] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/_services_s.ep.rosidl_typesupport_c.c\n'}
+[14.430075] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.430586] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/_services_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.430717] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/__init__.py\n'}
+[14.430805] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/libservices__rosidl_generator_py.so\n'}
+[14.529367] (-) TimerEvent: {}
+[14.633408] (services) StdoutLine: {'line': b"Listing '/home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services'...\n"}
+[14.633690] (-) TimerEvent: {}
+[14.634159] (services) StdoutLine: {'line': b"Listing '/home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/srv'...\n"}
+[14.644880] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.646834] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.647960] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages/services/services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.648978] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/lib/libservices__rosidl_generator_py.so\n'}
+[14.649698] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService.idl\n'}
+[14.650115] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService.srv\n'}
+[14.650662] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService_Request.msg\n'}
+[14.651055] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/srv/TestService_Response.msg\n'}
+[14.651536] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/package_run_dependencies/services\n'}
+[14.652037] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/parent_prefix_path/services\n'}
+[14.652559] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/ament_prefix_path.sh\n'}
+[14.656454] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/ament_prefix_path.dsv\n'}
+[14.656889] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/path.sh\n'}
+[14.657174] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/environment/path.dsv\n'}
+[14.657469] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.bash\n'}
+[14.657872] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.sh\n'}
+[14.658187] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.zsh\n'}
+[14.658485] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/local_setup.dsv\n'}
+[14.658986] (services) StdoutLine: {'line': b'-- Installing: /home/ice/polaris-bot/ros2_ws/install/services/share/services/package.dsv\n'}
+[14.659910] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/ament_index/resource_index/packages/services\n'}
+[14.660750] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_cExport.cmake\n'}
+[14.661580] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.662256] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.662690] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.663219] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.666085] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.667817] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cExport.cmake\n'}
+[14.668514] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.669330] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_cppExport.cmake\n'}
+[14.670047] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.670552] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.671096] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.671552] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.672233] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cppExport.cmake\n'}
+[14.672674] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/services__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.673114] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_pyExport.cmake\n'}
+[14.673797] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/export_services__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.673967] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/rosidl_cmake-extras.cmake\n'}
+[14.677769] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.677898] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.678096] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.678387] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.678773] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.679324] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.679717] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/servicesConfig.cmake\n'}
+[14.680110] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/cmake/servicesConfig-version.cmake\n'}
+[14.780504] (services) StdoutLine: {'line': b'-- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/services/share/services/package.xml\n'}
+[14.780881] (-) TimerEvent: {}
+[14.781422] (services) CommandEnded: {'returncode': 0}
+[14.917243] (-) TimerEvent: {}
+[15.046938] (-) TimerEvent: {}
+[15.148997] (-) TimerEvent: {}
+[15.261020] (-) TimerEvent: {}
+[15.363482] (-) TimerEvent: {}
+[15.529145] (-) TimerEvent: {}
+[15.632851] (-) TimerEvent: {}
+[15.735376] (-) TimerEvent: {}
+[15.892174] (-) TimerEvent: {}
+[16.039384] (-) TimerEvent: {}
+[16.141824] (-) TimerEvent: {}
+[16.252778] (-) TimerEvent: {}
+[16.364082] (-) TimerEvent: {}
+[16.368942] (services) JobEnded: {'identifier': 'services', 'rc': 0}
+[16.473631] (-) TimerEvent: {}
+[16.580448] (-) TimerEvent: {}
+[16.687035] (-) TimerEvent: {}
+[16.798607] (-) TimerEvent: {}
+[16.904300] (-) TimerEvent: {}
+[17.015046] (-) TimerEvent: {}
+[17.120741] (-) TimerEvent: {}
+[17.224622] (-) TimerEvent: {}
+[17.345633] (-) TimerEvent: {}
+[17.528416] (-) TimerEvent: {}
+[17.664670] (-) TimerEvent: {}
+[18.531807] (-) TimerEvent: {}
+[18.697646] (-) TimerEvent: {}
+[18.802394] (-) TimerEvent: {}
+[18.909896] (-) TimerEvent: {}
+[19.527140] (-) TimerEvent: {}
+[19.628623] (-) TimerEvent: {}
+[19.732488] (-) TimerEvent: {}
+[19.838442] (-) TimerEvent: {}
+[19.953225] (-) TimerEvent: {}
+[20.060528] (-) TimerEvent: {}
+[20.175086] (-) TimerEvent: {}
+[20.281534] (-) TimerEvent: {}
+[20.385209] (-) TimerEvent: {}
+[20.489828] (-) TimerEvent: {}
+[20.594633] (-) TimerEvent: {}
+[20.696539] (-) TimerEvent: {}
+[20.798706] (-) TimerEvent: {}
+[20.912918] (-) TimerEvent: {}
+[21.029849] (-) TimerEvent: {}
+[21.135296] (-) TimerEvent: {}
+[21.241302] (-) TimerEvent: {}
+[21.342028] (-) TimerEvent: {}
+[21.452845] (-) TimerEvent: {}
+[21.556316] (-) TimerEvent: {}
+[21.665701] (-) TimerEvent: {}
+[21.772077] (-) TimerEvent: {}
+[21.789004] (polaris_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid polaris_controller::HardwareCommandPub::publishData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.789570] (polaris_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:41:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khw_commands_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[21.789834] (polaris_controller) StderrLine: {'line': b'   41 |   message.right_motor_speed = &\x1b[01;31m\x1b[Khw_commands_\x1b[m\x1b[K[0];\n'}
+[21.789961] (polaris_controller) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.874105] (-) TimerEvent: {}
+[21.980581] (-) TimerEvent: {}
+[22.088685] (-) TimerEvent: {}
+[22.189904] (-) TimerEvent: {}
+[22.290718] (-) TimerEvent: {}
+[22.393307] (-) TimerEvent: {}
+[22.494745] (-) TimerEvent: {}
+[22.596753] (-) TimerEvent: {}
+[22.700197] (-) TimerEvent: {}
+[22.801305] (-) TimerEvent: {}
+[22.903353] (-) TimerEvent: {}
+[23.005083] (-) TimerEvent: {}
+[23.115559] (-) TimerEvent: {}
+[23.222684] (-) TimerEvent: {}
+[23.325076] (-) TimerEvent: {}
+[23.433391] (-) TimerEvent: {}
+[23.547114] (-) TimerEvent: {}
+[23.661206] (-) TimerEvent: {}
+[23.772969] (-) TimerEvent: {}
+[23.879227] (-) TimerEvent: {}
+[23.980013] (-) TimerEvent: {}
+[24.090293] (-) TimerEvent: {}
+[24.194017] (-) TimerEvent: {}
+[24.301315] (-) TimerEvent: {}
+[24.409220] (-) TimerEvent: {}
+[24.517483] (-) TimerEvent: {}
+[24.622180] (-) TimerEvent: {}
+[24.814706] (-) TimerEvent: {}
+[24.918191] (-) TimerEvent: {}
+[25.031246] (-) TimerEvent: {}
+[25.133580] (-) TimerEvent: {}
+[25.239602] (-) TimerEvent: {}
+[25.341348] (-) TimerEvent: {}
+[25.452138] (-) TimerEvent: {}
+[25.558318] (-) TimerEvent: {}
+[25.670304] (-) TimerEvent: {}
+[25.778725] (-) TimerEvent: {}
+[25.807614] (polaris_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/polaris_controller.dir/build.make:76: CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o] Error 1\n'}
+[25.817791] (polaris_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polaris_controller.dir/all] Error 2\n'}
+[25.818643] (polaris_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.823331] (polaris_controller) CommandEnded: {'returncode': 2}
+[25.879272] (-) TimerEvent: {}
+[25.995400] (-) TimerEvent: {}
+[26.114637] (-) TimerEvent: {}
+[26.236124] (-) TimerEvent: {}
+[26.291212] (polaris_controller) JobEnded: {'identifier': 'polaris_controller', 'rc': 2}
+[26.322193] (-) EventReactorShutdown: {}

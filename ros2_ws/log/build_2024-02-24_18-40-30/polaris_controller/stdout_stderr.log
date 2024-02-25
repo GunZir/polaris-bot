@@ -1,0 +1,16 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o[0m
+[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn polaris_controller::PolarisSystemHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrigger_joint_command_threshold_[m[K’ was not declared in this scope
+   81 |     [01;31m[Ktrigger_joint_command_threshold_[m[K = std::stod(it->second);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:85:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_hardware_parameter[m[K’ was not declared in this scope
+   85 |       [01;31m[Kget_hardware_parameter[m[K("joint_commands_topic", "/robot_joint_commands"), rclcpp::QoS(1));
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type polaris_controller::PolarisSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:220:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_state[m[K’?
+  220 |   topic_based_joint_commands_publisher_->publish([01;31m[Kjoint_state[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                                  [32m[Kget_state[m[K
+gmake[2]: *** [CMakeFiles/polaris_controller.dir/build.make:76: CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polaris_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

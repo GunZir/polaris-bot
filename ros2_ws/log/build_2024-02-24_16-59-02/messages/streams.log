@@ -1,0 +1,161 @@
+[0.478s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/messages -- -j2 -l2
+[0.699s] [ 10%] Built target messages__rosidl_generator_c
+[0.792s] [ 12%] Built target messages__cpp
+[0.927s] [ 12%] Built target ament_cmake_python_copy_messages
+[0.990s] [ 23%] Built target messages__rosidl_typesupport_fastrtps_c
+[1.079s] [ 33%] Built target messages__rosidl_typesupport_introspection_c
+[1.195s] [ 43%] Built target messages__rosidl_typesupport_c
+[1.338s] [ 53%] Built target messages__rosidl_typesupport_fastrtps_cpp
+[1.423s] [ 64%] Built target messages__rosidl_typesupport_introspection_cpp
+[1.581s] [ 74%] Built target messages__rosidl_typesupport_cpp
+[2.340s] running egg_info
+[2.353s] writing messages.egg-info/PKG-INFO
+[2.353s] writing dependency_links to messages.egg-info/dependency_links.txt
+[2.353s] writing top-level names to messages.egg-info/top_level.txt
+[2.362s] reading manifest file 'messages.egg-info/SOURCES.txt'
+[2.367s] writing manifest file 'messages.egg-info/SOURCES.txt'
+[2.519s] [ 74%] Built target ament_cmake_python_build_messages_egg
+[2.573s] [ 74%] Built target messages
+[2.631s] [ 76%] Built target messages__py
+[2.717s] [ 84%] Built target messages__rosidl_generator_py
+[2.805s] [ 89%] Built target messages__rosidl_typesupport_fastrtps_c__pyext
+[2.903s] [ 94%] Built target messages__rosidl_typesupport_introspection_c__pyext
+[2.987s] [100%] Built target messages__rosidl_typesupport_c__pyext
+[3.304s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/messages -- -j2 -l2
+[3.984s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/messages
+[4.015s] -- Install configuration: ""
+[4.016s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages
+[4.016s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages
+[4.017s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg
+[4.018s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/encoder_feed_back.h
+[4.019s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail
+[4.019s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__functions.h
+[4.020s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__type_support.h
+[4.021s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__struct.h
+[4.021s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__functions.h
+[4.021s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__struct.h
+[4.025s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__type_support.h
+[4.029s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__functions.c
+[4.030s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__functions.c
+[4.030s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/motor_robot_speed.h
+[4.030s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h
+[4.032s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/library_path.sh
+[4.033s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/library_path.dsv
+[4.034s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_generator_c.so
+[4.036s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages
+[4.039s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg
+[4.040s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail
+[4.041s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__rosidl_typesupport_fastrtps_c.h
+[4.044s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_fastrtps_c.h
+[4.044s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.044s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so
+[4.049s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages
+[4.049s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg
+[4.049s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail
+[4.049s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_introspection_c.h
+[4.050s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__type_support.c
+[4.050s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__type_support.c
+[4.050s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__rosidl_typesupport_introspection_c.h
+[4.051s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.051s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so
+[4.051s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_c.so
+[4.073s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages
+[4.074s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg
+[4.075s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail
+[4.086s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__struct.hpp
+[4.086s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__builder.hpp
+[4.087s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__traits.hpp
+[4.087s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__traits.hpp
+[4.088s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__struct.hpp
+[4.089s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__builder.hpp
+[4.090s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/encoder_feed_back.hpp
+[4.092s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/motor_robot_speed.hpp
+[4.094s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages
+[4.097s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg
+[4.097s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail
+[4.097s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/dds_fastrtps
+[4.098s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__rosidl_typesupport_fastrtps_cpp.hpp
+[4.098s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[4.099s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.099s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so
+[4.099s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages
+[4.099s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg
+[4.099s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail
+[4.100s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__type_support.cpp
+[4.100s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/encoder_feed_back__rosidl_typesupport_introspection_cpp.hpp
+[4.100s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__rosidl_typesupport_introspection_cpp.hpp
+[4.100s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/include/messages/messages/msg/detail/motor_robot_speed__type_support.cpp
+[4.100s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so
+[4.100s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_typesupport_cpp.so
+[4.101s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/pythonpath.sh
+[4.101s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/pythonpath.dsv
+[4.101s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info
+[4.101s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/top_level.txt
+[4.101s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/PKG-INFO
+[4.101s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.101s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg
+[4.102s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/_motor_robot_speed.py
+[4.103s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/_encoder_feed_back.py
+[4.103s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/_encoder_feed_back_s.c
+[4.103s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/__init__.py
+[4.103s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg/_motor_robot_speed_s.c
+[4.103s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/libmessages__rosidl_generator_py.so
+[4.104s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py
+[4.104s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_c.c
+[4.191s] Listing '/home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages'...
+[4.191s] Listing '/home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/msg'...
+[4.215s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.247s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/lib/libmessages__rosidl_generator_py.so
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/msg/MotorRobotSpeed.idl
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/msg/EncoderFeedBack.idl
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/msg/MotorRobotSpeed.msg
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/msg/EncoderFeedBack.msg
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/package_run_dependencies/messages
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/parent_prefix_path/messages
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/ament_prefix_path.sh
+[4.257s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/ament_prefix_path.dsv
+[4.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/path.sh
+[4.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/environment/path.dsv
+[4.258s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.bash
+[4.259s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.sh
+[4.259s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.zsh
+[4.263s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/local_setup.dsv
+[4.263s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/package.dsv
+[4.264s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/ament_index/resource_index/packages/messages
+[4.264s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake
+[4.264s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake
+[4.265s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.285s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.286s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake
+[4.286s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.286s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake
+[4.287s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake
+[4.287s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake
+[4.287s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake
+[4.287s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake
+[4.287s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.288s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake
+[4.288s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake
+[4.288s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.288s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.288s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.288s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messagesConfig.cmake
+[4.288s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/cmake/messagesConfig-version.cmake
+[4.289s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/messages/share/messages/package.xml
+[4.289s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/messages

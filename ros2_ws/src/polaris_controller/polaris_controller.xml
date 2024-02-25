@@ -1,0 +1,9 @@
+<library path="polaris_controller">
+  <class name="polaris_controller/PolarisSystemHardware"
+         type="polaris_controller::PolarisSystemHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The ros2_control polaris bot using a system hardware interface-type. It uses velocity command and position state interface.
+    </description>
+  </class>
+</library>

@@ -1,6 +1,0 @@
-{
-  "package_name": "my_message",
-  "non_idl_tuples": [
-    "/home/ice/polaris-bot/ros2_ws/src/my_message:msg/MyMessage.msg"
-  ]
-}

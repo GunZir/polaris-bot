@@ -1,2 +1,4 @@
-msg/RobotMotorSpeed.idl
-msg/RobotMotorSpeed.msg
+msg/EncoderFeedBack.idl
+msg/EncoderFeedBack.msg
+msg/MotorRobotSpeed.idl
+msg/MotorRobotSpeed.msg

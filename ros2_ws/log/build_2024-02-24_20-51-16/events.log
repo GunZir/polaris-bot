@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'messages'}
+[0.000357] (-) JobUnselected: {'identifier': 'my_diff_drive_bot'}
+[0.000473] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.000506] (-) JobUnselected: {'identifier': 'services'}
+[0.000539] (polaris_controller) JobQueued: {'identifier': 'polaris_controller', 'dependencies': OrderedDict([('messages', '/home/ice/polaris-bot/ros2_ws/install/messages'), ('ros2_control_demo_description', '/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description')])}
+[0.000697] (polaris_controller) JobStarted: {'identifier': 'polaris_controller'}
+[0.069568] (-) TimerEvent: {}
+[0.223757] (-) TimerEvent: {}
+[0.277779] (polaris_controller) JobProgress: {'identifier': 'polaris_controller', 'progress': 'cmake'}
+[0.280929] (polaris_controller) JobProgress: {'identifier': 'polaris_controller', 'progress': 'build'}
+[0.282333] (polaris_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ice/polaris-bot/ros2_ws/build/polaris_controller', '--', '-j2', '-l2'], 'cwd': '/home/ice/polaris-bot/ros2_ws/build/polaris_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ice'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ice'), ('OLDPWD', '/home/ice/polaris-bot/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1869'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ice/polaris-bot/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ice'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/polaris:@/tmp/.ICE-unix/1848,unix/polaris:/tmp/.ICE-unix/1848'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18bd836b_84e1_4c01_970b_aaac64cad824'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D7ZSJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/home/ice/polaris-bot/ros2_ws/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ice/polaris-bot/ros2_ws/build/polaris_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ice/polaris-bot/ros2_ws/install/services/local/lib/python3.10/dist-packages:/home/ice/polaris-bot/ros2_ws/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble')]), 'shell': False}
+[0.387581] (polaris_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target polaris_controller\x1b[0m\n'}
+[0.387850] (-) TimerEvent: {}
+[0.457310] (polaris_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o\x1b[0m\n'}
+[0.500792] (-) TimerEvent: {}
+[0.608129] (-) TimerEvent: {}
+[0.736618] (-) TimerEvent: {}
+[0.841297] (-) TimerEvent: {}
+[1.004069] (-) TimerEvent: {}
+[1.176983] (-) TimerEvent: {}
+[1.368642] (-) TimerEvent: {}
+[1.524808] (-) TimerEvent: {}
+[1.656673] (-) TimerEvent: {}
+[1.793145] (-) TimerEvent: {}
+[1.901069] (-) TimerEvent: {}
+[2.052749] (-) TimerEvent: {}
+[2.161041] (-) TimerEvent: {}
+[2.264167] (-) TimerEvent: {}
+[2.378030] (-) TimerEvent: {}
+[2.481399] (-) TimerEvent: {}
+[2.584575] (-) TimerEvent: {}
+[2.708867] (-) TimerEvent: {}
+[2.852880] (-) TimerEvent: {}
+[2.991592] (-) TimerEvent: {}
+[3.094196] (-) TimerEvent: {}
+[3.200616] (-) TimerEvent: {}
+[3.319107] (-) TimerEvent: {}
+[3.439717] (-) TimerEvent: {}
+[3.545947] (-) TimerEvent: {}
+[3.657499] (-) TimerEvent: {}
+[3.761317] (-) TimerEvent: {}
+[3.866951] (-) TimerEvent: {}
+[3.989866] (-) TimerEvent: {}
+[4.093331] (-) TimerEvent: {}
+[4.213005] (-) TimerEvent: {}
+[4.325588] (-) TimerEvent: {}
+[4.427265] (-) TimerEvent: {}
+[4.551202] (-) TimerEvent: {}
+[4.660162] (-) TimerEvent: {}
+[4.787920] (-) TimerEvent: {}
+[4.908055] (-) TimerEvent: {}
+[5.016045] (-) TimerEvent: {}
+[5.126289] (-) TimerEvent: {}
+[5.232299] (-) TimerEvent: {}
+[5.337160] (-) TimerEvent: {}
+[5.439232] (-) TimerEvent: {}
+[5.565781] (-) TimerEvent: {}
+[5.729045] (-) TimerEvent: {}
+[5.839689] (-) TimerEvent: {}
+[5.970629] (-) TimerEvent: {}
+[6.108650] (-) TimerEvent: {}
+[6.225301] (-) TimerEvent: {}
+[6.330046] (-) TimerEvent: {}
+[6.436926] (-) TimerEvent: {}
+[6.542963] (-) TimerEvent: {}
+[6.665733] (-) TimerEvent: {}
+[6.766412] (-) TimerEvent: {}
+[6.869753] (-) TimerEvent: {}
+[6.993704] (-) TimerEvent: {}
+[7.179078] (-) TimerEvent: {}
+[7.333817] (-) TimerEvent: {}
+[7.448548] (-) TimerEvent: {}
+[7.549502] (-) TimerEvent: {}
+[7.941997] (-) TimerEvent: {}
+[8.067466] (-) TimerEvent: {}
+[8.102279] (polaris_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type polaris_controller::PolarisSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.102586] (polaris_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:207:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.102732] (polaris_controller) StderrLine: {'line': b'  207 | ft_motor_speed = -1 * \x1b[34m\x1b[K(\x1b[m\x1b[Khw_commands_[0] / (2 * M_PI) * counts_per_rev_\x1b[01;31m\x1b[K;\x1b[m\x1b[K)\n'}
+[8.102955] (polaris_controller) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.103089] (polaris_controller) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[8.103395] (polaris_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:207:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.103648] (polaris_controller) StderrLine: {'line': b'  207 | ft_motor_speed = -1 * (hw_commands_[0] / (2 * M_PI) * counts_per_rev_;\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[8.103999] (polaris_controller) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.104240] (polaris_controller) StderrLine: {'line': b'\n'}
+[8.170652] (-) TimerEvent: {}
+[8.279330] (-) TimerEvent: {}
+[8.384299] (-) TimerEvent: {}
+[8.489202] (-) TimerEvent: {}
+[8.611970] (-) TimerEvent: {}
+[8.717468] (-) TimerEvent: {}
+[8.819099] (-) TimerEvent: {}
+[8.921834] (-) TimerEvent: {}
+[9.152890] (-) TimerEvent: {}
+[9.253673] (-) TimerEvent: {}
+[9.386086] (-) TimerEvent: {}
+[9.488099] (-) TimerEvent: {}
+[9.812063] (-) TimerEvent: {}
+[9.972639] (-) TimerEvent: {}
+[10.143213] (-) TimerEvent: {}
+[10.318187] (-) TimerEvent: {}
+[10.429552] (-) TimerEvent: {}
+[10.823607] (-) TimerEvent: {}
+[10.931652] (-) TimerEvent: {}
+[11.135438] (-) TimerEvent: {}
+[11.527940] (-) TimerEvent: {}
+[11.631137] (-) TimerEvent: {}
+[11.750649] (-) TimerEvent: {}
+[11.861008] (-) TimerEvent: {}
+[11.967012] (-) TimerEvent: {}
+[12.073662] (-) TimerEvent: {}
+[12.182313] (-) TimerEvent: {}
+[12.282991] (-) TimerEvent: {}
+[12.388012] (-) TimerEvent: {}
+[12.493787] (-) TimerEvent: {}
+[12.598996] (-) TimerEvent: {}
+[12.724197] (-) TimerEvent: {}
+[12.831684] (-) TimerEvent: {}
+[12.939302] (-) TimerEvent: {}
+[13.041113] (-) TimerEvent: {}
+[13.163928] (-) TimerEvent: {}
+[13.284597] (-) TimerEvent: {}
+[13.387211] (-) TimerEvent: {}
+[13.509385] (-) TimerEvent: {}
+[13.619654] (-) TimerEvent: {}
+[13.727057] (-) TimerEvent: {}
+[13.863829] (-) TimerEvent: {}
+[13.969025] (-) TimerEvent: {}
+[14.073645] (-) TimerEvent: {}
+[14.342475] (-) TimerEvent: {}
+[14.469952] (-) TimerEvent: {}
+[14.616162] (-) TimerEvent: {}
+[14.739058] (-) TimerEvent: {}
+[14.878716] (-) TimerEvent: {}
+[15.069670] (-) TimerEvent: {}
+[15.224093] (-) TimerEvent: {}
+[15.327444] (-) TimerEvent: {}
+[15.585262] (-) TimerEvent: {}
+[15.691696] (-) TimerEvent: {}
+[15.865621] (-) TimerEvent: {}
+[15.967609] (-) TimerEvent: {}
+[16.068337] (-) TimerEvent: {}
+[16.168908] (-) TimerEvent: {}
+[16.339799] (-) TimerEvent: {}
+[16.445192] (-) TimerEvent: {}
+[16.703837] (-) TimerEvent: {}
+[16.812791] (-) TimerEvent: {}
+[16.887528] (polaris_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/polaris_controller.dir/build.make:76: CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o] Error 1\n'}
+[16.888528] (polaris_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polaris_controller.dir/all] Error 2\n'}
+[16.888899] (polaris_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.892832] (polaris_controller) CommandEnded: {'returncode': 2}
+[16.918642] (-) TimerEvent: {}
+[17.022944] (-) TimerEvent: {}
+[17.135520] (-) TimerEvent: {}
+[17.244347] (-) TimerEvent: {}
+[17.352498] (-) TimerEvent: {}
+[17.418115] (polaris_controller) JobEnded: {'identifier': 'polaris_controller', 'rc': 2}
+[17.421038] (-) EventReactorShutdown: {}

@@ -3,8 +3,10 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/messages/msg/__init__.py"
-  "../rosidl_generator_py/messages/msg/_robot_motor_speed.py"
-  "../rosidl_generator_py/messages/msg/_robot_motor_speed_s.c"
+  "../rosidl_generator_py/messages/msg/_encoder_feed_back.py"
+  "../rosidl_generator_py/messages/msg/_encoder_feed_back_s.c"
+  "../rosidl_generator_py/messages/msg/_motor_robot_speed.py"
+  "../rosidl_generator_py/messages/msg/_motor_robot_speed_s.c"
   "CMakeFiles/messages__py"
 )
 
