@@ -4,13 +4,14 @@
   <xacro:arg name="prefix" default="" />
   <xacro:arg name="use_mock_hardware" default="false" />
 
+  <!-- <xacro:include filename="$(find my_diff_drive_bot)/description/robot.urdf.xacro" /> -->
   <xacro:include filename="$(find ros2_control_demo_description)/diffbot/urdf/diffbot_description.urdf.xacro" />
 
   <!-- Import Rviz colors -->
   <xacro:include filename="$(find ros2_control_demo_description)/diffbot/urdf/diffbot.materials.xacro" />
 
   <!-- Import diffbot ros2_control description -->
-  <xacro:include filename="$(find polaris_controller)/ros2_control/diffbot.ros2_control.xacro" />
+  <xacro:include filename="$(find polaris_controller)/ros2_control/robot.ros2_control.xacro" />
 
   <xacro:diffbot prefix="$(arg prefix)" />
 

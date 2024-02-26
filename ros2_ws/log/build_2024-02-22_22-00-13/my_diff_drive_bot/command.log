@@ -1,1 +1,0 @@
-Invoking command in '/home/ice/polaris-bot/ros2_ws/build/my_diff_drive_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ice/polaris-bot/ros2_ws/src/my_diff_drive_bot -DCMAKE_INSTALL_PREFIX=/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot

@@ -1,0 +1,45 @@
+[0.561s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/polaris_controller -- -j2 -l2
+[1.708s] [100%] Built target polaris_controller
+[1.745s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller' returned '0': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/polaris_controller -- -j2 -l2
+[1.949s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/polaris_controller
+[1.991s] -- Install configuration: ""
+[1.992s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/polaris_controller.xml
+[1.994s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/include/polaris_controller
+[1.995s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/include/polaris_controller/polaris_controller
+[1.997s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/include/polaris_controller/polaris_controller/visibility_control.h
+[1.998s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/include/polaris_controller/polaris_controller/polaris_system.hpp
+[2.001s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/include/polaris_controller/polaris_controller/wheel.hpp
+[2.012s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/launch
+[2.021s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/launch/view_robot.launch.py
+[2.021s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/ros2_control
+[2.023s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/ros2_control/robot.ros2_control.xacro
+[2.025s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/urdf
+[2.029s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/urdf/diffbot.urdf.xacro
+[2.036s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/launch
+[2.036s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/launch/diffbot.launch.py
+[2.041s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/config
+[2.044s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/config/polaris_controller.yaml
+[2.051s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib/libpolaris_controller.so
+[2.051s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/environment/library_path.sh
+[2.051s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/environment/library_path.dsv
+[2.055s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/ament_index/resource_index/package_run_dependencies/polaris_controller
+[2.056s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/ament_index/resource_index/parent_prefix_path/polaris_controller
+[2.057s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/environment/ament_prefix_path.sh
+[2.057s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/environment/ament_prefix_path.dsv
+[2.057s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/environment/path.sh
+[2.058s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/environment/path.dsv
+[2.058s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/local_setup.bash
+[2.058s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/local_setup.sh
+[2.058s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/local_setup.zsh
+[2.058s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/local_setup.dsv
+[2.059s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.dsv
+[2.060s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/ament_index/resource_index/packages/polaris_controller
+[2.061s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/polaris_controller
+[2.073s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/cmake/export_polaris_controllerExport.cmake
+[2.074s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/cmake/export_polaris_controllerExport-noconfig.cmake
+[2.074s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/cmake/ament_cmake_export_targets-extras.cmake
+[2.074s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.074s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/cmake/polaris_controllerConfig.cmake
+[2.075s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/cmake/polaris_controllerConfig-version.cmake
+[2.075s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.xml
+[2.083s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller' returned '0': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/polaris_controller

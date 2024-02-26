@@ -1,2 +1,0 @@
-Invoking command in '/home/ice/polaris-bot/ros2_ws/build/messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ice/polaris-bot/ros2_ws/src/messages -DCMAKE_INSTALL_PREFIX=/home/ice/polaris-bot/ros2_ws/install/messages
-Invoked command in '/home/ice/polaris-bot/ros2_ws/build/messages' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ice/polaris-bot/ros2_ws/src/messages -DCMAKE_INSTALL_PREFIX=/home/ice/polaris-bot/ros2_ws/install/messages

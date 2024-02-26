@@ -1,7 +1,0 @@
-[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:29:10:[m[K [01;31m[Kfatal error: [m[Kmessages/msg/encoder_feed__back.hpp: No such file or directory
-   29 | #include [01;31m[K<messages/msg/encoder_feed__back.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/polaris_controller.dir/build.make:76: CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polaris_controller.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

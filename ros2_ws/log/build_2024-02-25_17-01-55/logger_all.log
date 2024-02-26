@@ -1,0 +1,249 @@
+[4.943s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'polaris_controller']
+[4.944s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['polaris_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fadfdd5b610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fadfdd59de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fadfdd59de0>>)
+[5.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.109s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ice/polaris-bot/ros2_ws'
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extensions ['ignore', 'ignore_ament_install']
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'ignore'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'ignore_ament_install'
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extensions ['colcon_pkg']
+[5.169s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'colcon_pkg'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extensions ['colcon_meta']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'colcon_meta'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extensions ['ros']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'ros'
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extensions ['cmake', 'python']
+[5.170s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'cmake'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'python'
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extensions ['python_setup_py']
+[5.171s] Level 1:colcon.colcon_core.package_identification:_identify(apps) by extension 'python_setup_py'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extensions ['ignore', 'ignore_ament_install']
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'ignore'
+[5.175s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'ignore_ament_install'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extensions ['colcon_pkg']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'colcon_pkg'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extensions ['colcon_meta']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'colcon_meta'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extensions ['ros']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'ros'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extensions ['cmake', 'python']
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'cmake'
+[5.176s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'python'
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extensions ['python_setup_py']
+[5.177s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface) by extension 'python_setup_py'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extensions ['ignore', 'ignore_ament_install']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'ignore'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'ignore_ament_install'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extensions ['colcon_pkg']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'colcon_pkg'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extensions ['colcon_meta']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'colcon_meta'
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extensions ['ros']
+[5.179s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'ros'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extensions ['cmake', 'python']
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'cmake'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'python'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extensions ['python_setup_py']
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(apps/polaris_controller_interface/libs) by extension 'python_setup_py'
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extensions ['ignore', 'ignore_ament_install']
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) by extension 'ignore'
+[5.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware) ignored
+[5.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['ignore', 'ignore_ament_install']
+[5.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ignore'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ignore_ament_install'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['colcon_pkg']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'colcon_pkg'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['colcon_meta']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'colcon_meta'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['ros']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ros'
+[5.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/messages' with type 'ros.ament_cmake' and name 'messages'
+[5.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extensions ['ignore', 'ignore_ament_install']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extension 'ignore'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extension 'ignore_ament_install'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extensions ['colcon_pkg']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extension 'colcon_pkg'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extensions ['colcon_meta']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extension 'colcon_meta'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extensions ['ros']
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_drive_bot) by extension 'ros'
+[5.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_diff_drive_bot' with type 'ros.ament_cmake' and name 'my_diff_drive_bot'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extensions ['ignore', 'ignore_ament_install']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extension 'ignore'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extension 'ignore_ament_install'
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extensions ['colcon_pkg']
+[5.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extension 'colcon_pkg'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extensions ['colcon_meta']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extension 'colcon_meta'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extensions ['ros']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/polaris_controller) by extension 'ros'
+[5.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polaris_controller' with type 'ros.ament_cmake' and name 'polaris_controller'
+[5.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[5.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore'
+[5.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore_ament_install'
+[5.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_pkg']
+[5.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_pkg'
+[5.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_meta']
+[5.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_meta'
+[5.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ros']
+[5.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ros'
+[5.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[5.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[5.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore'
+[5.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore_ament_install'
+[5.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_pkg']
+[5.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_pkg'
+[5.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_meta']
+[5.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_meta'
+[5.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ros']
+[5.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ros'
+[5.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[5.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extensions ['ignore', 'ignore_ament_install']
+[5.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extension 'ignore'
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extension 'ignore_ament_install'
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extensions ['colcon_pkg']
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extension 'colcon_pkg'
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extensions ['colcon_meta']
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extension 'colcon_meta'
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extensions ['ros']
+[5.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/services) by extension 'ros'
+[5.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/services' with type 'ros.ament_cmake' and name 'services'
+[5.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.476s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'messages' in 'src/messages'
+[5.476s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_diff_drive_bot' in 'src/my_diff_drive_bot'
+[5.477s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_control_demo_description' in 'src/ros2_control_demo_description'
+[5.477s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar_ros2'
+[5.477s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'services' in 'src/services'
+[5.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.706s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ice/polaris-bot/ros2_ws/install
+[5.781s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/humble
+[5.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'cmake_args' from command line to 'None'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'cmake_target' from command line to 'None'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'cmake_clean_first' from command line to 'False'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'cmake_force_configure' from command line to 'False'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'ament_cmake_args' from command line to 'None'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'polaris_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.228s] DEBUG:colcon.colcon_core.verb:Building package 'polaris_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ice/polaris-bot/ros2_ws/build/polaris_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ice/polaris-bot/ros2_ws/install/polaris_controller', 'merge_install': False, 'path': '/home/ice/polaris-bot/ros2_ws/src/polaris_controller', 'symlink_install': False, 'test_result_base': None}
+[6.267s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ice/polaris-bot/ros2_ws/src/polaris_controller' with build type 'ament_cmake'
+[6.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ice/polaris-bot/ros2_ws/src/polaris_controller'
+[6.494s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/polaris_controller -- -j2 -l2
+[7.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller' returned '0': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/polaris_controller -- -j2 -l2
+[7.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/polaris_controller
+[7.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polaris_controller)
+[7.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ice/polaris-bot/ros2_ws/build/polaris_controller' returned '0': CMAKE_PREFIX_PATH=/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description:/home/ice/polaris-bot/ros2_ws/install/messages:/home/ice/polaris-bot/ros2_ws/install/services:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros:/home/ice/polaris-bot/ros2_ws/install/polaris_controller:/home/ice/polaris-bot/ros2_ws/install/my_diff_drive_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/ice/polaris-bot/ros2_ws/install/messages/lib:/home/ice/polaris-bot/ros2_ws/install/services/lib:/home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib:/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/polaris_controller
+[7.410s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller' for CMake module files
+[7.411s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller' for CMake config files
+[7.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_controller', 'cmake_prefix_path')
+[7.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/cmake_prefix_path.ps1'
+[7.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/cmake_prefix_path.dsv'
+[7.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/cmake_prefix_path.sh'
+[7.495s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib'
+[7.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_controller', 'ld_library_path_lib')
+[7.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/ld_library_path_lib.ps1'
+[7.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/ld_library_path_lib.dsv'
+[7.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/ld_library_path_lib.sh'
+[7.559s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/bin'
+[7.559s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib/pkgconfig/polaris_controller.pc'
+[7.560s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib/python3.10/site-packages'
+[7.561s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/bin'
+[7.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.ps1'
+[7.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.dsv'
+[7.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.sh'
+[7.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.bash'
+[7.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.zsh'
+[7.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/colcon-core/packages/polaris_controller)
+[7.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polaris_controller)
+[7.992s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller' for CMake module files
+[7.993s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller' for CMake config files
+[7.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_controller', 'cmake_prefix_path')
+[8.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/cmake_prefix_path.ps1'
+[8.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/cmake_prefix_path.dsv'
+[8.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/cmake_prefix_path.sh'
+[8.074s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib'
+[8.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('polaris_controller', 'ld_library_path_lib')
+[8.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/ld_library_path_lib.ps1'
+[8.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/ld_library_path_lib.dsv'
+[8.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/hook/ld_library_path_lib.sh'
+[8.163s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/bin'
+[8.163s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib/pkgconfig/polaris_controller.pc'
+[8.165s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/lib/python3.10/site-packages'
+[8.166s] Level 1:colcon.colcon_core.environment:checking '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/bin'
+[8.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.ps1'
+[8.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.dsv'
+[8.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.sh'
+[8.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.bash'
+[8.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/polaris_controller/package.zsh'
+[8.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ice/polaris-bot/ros2_ws/install/polaris_controller/share/colcon-core/packages/polaris_controller)
+[8.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.257s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.360s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.429s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ice/polaris-bot/ros2_ws/install/local_setup.ps1'
+[8.568s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ice/polaris-bot/ros2_ws/install/_local_setup_util_ps1.py'
+[8.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ice/polaris-bot/ros2_ws/install/setup.ps1'
+[8.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ice/polaris-bot/ros2_ws/install/local_setup.sh'
+[8.664s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ice/polaris-bot/ros2_ws/install/_local_setup_util_sh.py'
+[8.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ice/polaris-bot/ros2_ws/install/setup.sh'
+[8.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ice/polaris-bot/ros2_ws/install/local_setup.bash'
+[8.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ice/polaris-bot/ros2_ws/install/setup.bash'
+[8.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ice/polaris-bot/ros2_ws/install/local_setup.zsh'
+[8.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ice/polaris-bot/ros2_ws/install/setup.zsh'

@@ -1,0 +1,45 @@
+[0.312s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/rplidar_ros -- -j2 -l2
+[0.836s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition_node[0m
+[1.171s] [ 77%] Built target rplidar_composition_node
+[1.400s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[1.513s] [100%] Built target rplidar_composition
+[1.901s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ice/polaris-bot/ros2_ws/build/rplidar_ros -- -j2 -l2
+[2.466s] Invoking command in '/home/ice/polaris-bot/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/rplidar_ros
+[2.506s] -- Install configuration: ""
+[2.538s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.538s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch
+[2.539s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[2.539s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[2.539s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[2.587s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[2.589s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[2.589s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[2.590s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[2.590s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[2.590s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[2.590s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[2.590s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[2.591s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[2.591s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/include
+[2.591s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/include/visibility.h
+[2.591s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp
+[2.591s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.592s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.615s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.622s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.623s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.623s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.624s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.625s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.628s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.629s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.629s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.629s] -- Installing: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.637s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.638s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[2.638s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.638s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.638s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.639s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.639s] -- Up-to-date: /home/ice/polaris-bot/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.652s] Invoked command in '/home/ice/polaris-bot/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ice/polaris-bot/ros2_ws/build/rplidar_ros

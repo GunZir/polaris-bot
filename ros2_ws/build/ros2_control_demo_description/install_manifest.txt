@@ -1,6 +1,7 @@
 /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
 /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
 /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+/home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/inertial_macros.xacro
 /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
 /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
 /home/ice/polaris-bot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz

@@ -1,9 +1,0 @@
-[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type polaris_controller::PolarisSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
-[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:199:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[Kdouble[m[K’
-  199 |   hw_cmd_pub_->publishData(&hw_commands_[0], &hw_commands_[1]);  //publish to topic
-[01m[K/home/ice/polaris-bot/ros2_ws/src/polaris_controller/hardware/polaris_system.cpp:38:45:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid polaris_controller::HardwareCommandPub::publishData(double, double)[m[K’
-   38 | void HardwareCommandPub::publishData([01;36m[Kdouble right_motor_speed[m[K, double left_motor_speed)
-      |                                      [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/polaris_controller.dir/build.make:76: CMakeFiles/polaris_controller.dir/hardware/polaris_system.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polaris_controller.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
